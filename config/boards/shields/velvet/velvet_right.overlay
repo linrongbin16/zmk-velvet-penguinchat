@@ -7,7 +7,7 @@
 #include "velvet.dtsi"
 
 &default_transform {
-    col-offset = <6>
+    col-offset = <6>;
 };
 &kscan0 {
     col-gpios
