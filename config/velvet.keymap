@@ -15,33 +15,11 @@
             bindings = <
 &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
 &kp A  &kp A  &kp A  &kp A  &kp A  &kp G  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp Z  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
+&kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
        &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
             >;
 
             display-name = "LAYER 0";
-        };
-
-        Layer1 {
-            bindings = <
-&trans  &trans        &trans        &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC  &trans    &kp UP_ARROW    &trans           &trans  &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans        &trans        &kp END           &kp PAGE_DOWN   &kp K_MUTE         &trans                &trans    &trans          &trans           &trans  &trans
-        &trans        &trans        &trans            &trans          &trans             &trans                &trans    &trans          &trans           &trans
-            >;
-
-            display-name = "LAYER 1";
-        };
-
-        Layer2 {
-            bindings = <
-&trans  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND    &kp STAR                        &trans              &trans      &kp LEFT_PARENTHESIS
-&trans  &kp ESCAPE       &kp CAPSLOCK  &kp HOME  &kp END     &kp UNDER    &kp MINUS  &kp RIGHT_SHIFT  &kp PAGE_UP                     &kp PAGE_DOWN       &kp INSERT  &trans
-&trans  &kp BACKSPACE    &trans        &trans    &trans      &kp TILDE    &kp GRAVE  &as PLUS EQUAL   &as DOUBLE_QUOTES SINGLE_QUOTE  &as PIPE BACKSLASH  &kp DEL     &trans
-        &trans           &trans        &trans    &trans      &trans       &trans     &trans           &trans                          &trans              &trans
-            >;
-
-            display-name = "LAYER 2";
         };
     };
 };
