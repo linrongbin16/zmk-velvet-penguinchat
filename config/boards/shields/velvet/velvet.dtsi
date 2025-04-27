@@ -20,9 +20,19 @@
 		>;
 	};
 
-    kscan0: kscan {
+
+ kscan0: kscan {
+        compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
+
         diode-direction = "col2row";
+        row-gpios
+            = <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 28 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            ;
+
     };
 
 };
