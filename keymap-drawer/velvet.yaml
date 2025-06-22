@@ -38,14 +38,14 @@ layers:
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-option$$
   - {t: ESC, h: Nav-Mac}
-  - $$mdi:arrow-up$$
-  - $$mdi:arrow-down$$
+  - PgDn
+  - PgUp
   - {t: \, h: '|', s: '|'}
   - {t: '$$mdi:keyboard-space$$', h: Fun-Mac}
   - {t: '$$mdi:backspace-outline$$', h: Sym}
   - {t: '''', h: '"', s: '"'}
-  - $$mdi:arrow-left$$
-  - $$mdi:arrow-right$$
+  - HOME
+  - END
   - {t: '$$mdi:keyboard-return$$', h: Num}
   Nav-Mac:
   - {type: none}
@@ -179,14 +179,14 @@ layers:
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-command$$
   - {t: ESC, h: Nav-Win}
-  - $$mdi:arrow-up$$
-  - $$mdi:arrow-down$$
+  - PgDn
+  - PgUp
   - {t: \, h: '|', s: '|'}
   - {t: '$$mdi:keyboard-space$$', h: Fun-Win}
   - {t: '$$mdi:backspace-outline$$', h: Sym}
   - {t: '''', h: '"', s: '"'}
-  - $$mdi:arrow-left$$
-  - $$mdi:arrow-right$$
+  - HOME
+  - END
   - {t: '$$mdi:keyboard-return$$', h: Num}
   Nav-Win:
   - {type: none}
