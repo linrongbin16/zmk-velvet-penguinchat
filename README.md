@@ -4,6 +4,8 @@
 >
 > **Please use the [Online ZMK Editor](https://nickcoutsos.github.io/keymap-editor) to build firmware with GitHub actions.**
 
+<img src="keymap-drawer/velvet.svg" >
+
 ## Acknowledgement
 
 - Forked from [Penguinchat/zmk-for-velvet-v3](https://github.com/Penguinchat/zmk-for-velvet-v3).
