@@ -54,46 +54,46 @@ layers:
   - $$mdi:arrow-up$$
   - Gui+R
   - Gui+T
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - Gui+Y
+  - Gui+U
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {t: ▽, type: trans}
   - Gui+A
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
   - Gui+F
+  - Gui+H
   - {type: none}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
   - {type: none}
-  - $$mdi:arrow-up$$
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - Gui+Z
   - Gui+X
   - Gui+C
   - Gui+V
   - Gui+B
-  - {type: none}
-  - $$mdi:arrow-left$$
-  - $$mdi:arrow-down$$
-  - $$mdi:arrow-right$$
+  - Gui+N
+  - Gui+M
   - {type: none}
   - {type: none}
+  - {type: none}
+  - $$mdi:apple-keyboard-option$$
   - {type: held}
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
+  - END
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
+  - HOME
   '2':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
