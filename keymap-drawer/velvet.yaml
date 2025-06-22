@@ -178,11 +178,11 @@ layers:
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-command$$
-  - {t: ESCAPE, h: Nav-Mac}
+  - {t: ESCAPE, h: Nav-Win}
   - $$mdi:arrow-up$$
   - $$mdi:arrow-down$$
   - {t: \, h: '|', s: '|'}
-  - {t: '$$mdi:keyboard-space$$', h: Fun-Mac}
+  - {t: '$$mdi:keyboard-space$$', h: Fun-Win}
   - {t: '$$mdi:backspace-outline$$', type: backspace}
   - {t: '''', h: '"', s: '"'}
   - $$mdi:arrow-left$$
@@ -225,7 +225,7 @@ layers:
   - {type: none}
   - {type: none}
   - $$mdi:apple-keyboard-command$$
-  - {type: none}
+  - {type: held}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -235,3 +235,50 @@ layers:
   - {type: none}
   - {type: none}
   - HOME
+  Fun-Win:
+  - BT CLR ALL
+  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '4'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '5'}
+  - F10
+  - F7
+  - F8
+  - F9
+  - {type: none}
+  - {type: none}
+  - {t: ▽, type: trans}
+  - {type: none}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - {type: none}
+  - OUT BLE
+  - F11
+  - F4
+  - F5
+  - F6
+  - {type: none}
+  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-command$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - OUT USB
+  - F12
+  - F1
+  - F2
+  - F3
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: held}
+  - $$mdi:backspace-reverse$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
