@@ -118,10 +118,10 @@
 
         Fun-Mac {
             bindings = <
-&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &kp F10     &kp F7  &kp F8  &kp F9  &none  &none
-&trans          &none         &kp LEFT_GUI  &kp LEFT_SHIFT  &none         &none         &kp F11     &kp F4  &kp F5  &kp F6  &none  &trans
-&kp LEFT_ALT    &none         &none         &none           &none         &none         &kp F12     &kp F1  &kp F2  &kp F3  &none  &to 3
-                &none         &out OUT_BLE  &out OUT_USB    &none         &none         &kp DELETE  &none   &none   &none   &none
+&bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &kp F10     &kp F7  &kp F8  &kp F9  &none  &none
+&trans        &none         &kp LEFT_GUI  &kp LEFT_SHIFT  &none         &none         &kp F11     &kp F4  &kp F5  &kp F6  &none  &trans
+&kp LEFT_ALT  &none         &none         &none           &none         &none         &kp F12     &kp F1  &kp F2  &kp F3  &none  &to 3
+              &none         &out OUT_BLE  &out OUT_USB    &none         &none         &kp DELETE  &none   &none   &none   &none
             >;
         };
 
@@ -145,10 +145,10 @@
 
         Fun-Win {
             bindings = <
-&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &kp F10     &kp F7  &kp F8  &kp F9  &none  &none
-&trans          &none         &kp LEFT_ALT  &kp LEFT_SHIFT  &none         &none         &kp F11     &kp F4  &kp F5  &kp F6  &none  &trans
-&kp LEFT_GUI    &none         &none         &none           &none         &none         &kp F12     &kp F1  &kp F2  &kp F3  &none  &to 0
-                &none         &out OUT_BLE  &out OUT_USB    &none         &none         &kp DELETE  &none   &none   &none   &none
+&bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &kp F10     &kp F7  &kp F8  &kp F9  &none  &none
+&trans        &none         &kp LEFT_ALT  &kp LEFT_SHIFT  &none         &none         &kp F11     &kp F4  &kp F5  &kp F6  &none  &trans
+&kp LEFT_GUI  &none         &none         &none           &none         &none         &kp F12     &kp F1  &kp F2  &kp F3  &none  &to 0
+              &none         &out OUT_BLE  &out OUT_USB    &none         &none         &kp DELETE  &none   &none   &none   &none
             >;
         };
 
