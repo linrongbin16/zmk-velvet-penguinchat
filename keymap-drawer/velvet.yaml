@@ -85,8 +85,8 @@ layers:
   - {type: none}
   - $$mdi:apple-keyboard-option$$
   - {type: held}
-  - {type: none}
-  - {type: none}
+  - PgDn
+  - PgUp
   - {type: none}
   - {type: none}
   - $$mdi:backspace-reverse$$
@@ -226,8 +226,8 @@ layers:
   - {type: none}
   - $$mdi:apple-keyboard-command$$
   - {type: held}
-  - {type: none}
-  - {type: none}
+  - PgDn
+  - PgUp
   - {type: none}
   - {type: none}
   - $$mdi:backspace-reverse$$
