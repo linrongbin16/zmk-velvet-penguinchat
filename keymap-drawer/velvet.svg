@@ -722,8 +722,12 @@ rect.held, rect.combo.held {
 <g transform="translate(952, 175)" class="key none keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(1008, 175)" class="key none keypos-35">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(1008, 175)" class="key keypos-35">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">Qwer-</tspan><tspan x="0" dy="1.2em">Win</tspan>
+</text>
+<text x="0" y="24" class="key hold">to</text>
 </g>
 <g transform="translate(404, 276) rotate(30.0)" class="key none keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -1280,8 +1284,12 @@ rect.held, rect.combo.held {
 <g transform="translate(952, 175)" class="key none keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(1008, 175)" class="key none keypos-35">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(1008, 175)" class="key keypos-35">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">Qwer-</tspan><tspan x="0" dy="1.2em">Mac</tspan>
+</text>
+<text x="0" y="24" class="key hold">to</text>
 </g>
 <g transform="translate(404, 276) rotate(30.0)" class="key none keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>

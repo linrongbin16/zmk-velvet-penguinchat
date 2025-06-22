@@ -130,7 +130,7 @@ layers:
   - F2
   - F3
   - {type: none}
-  - {type: none}
+  - {t: Qwer-Win, h: to}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -271,7 +271,7 @@ layers:
   - F2
   - F3
   - {type: none}
-  - {type: none}
+  - {t: Qwer-Mac, h: to}
   - {type: none}
   - {type: none}
   - {type: none}
