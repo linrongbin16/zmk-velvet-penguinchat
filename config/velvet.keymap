@@ -160,5 +160,14 @@
         &kp GRAVE  &none   &none   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none  &none                        &none                           &none                           &none
             >;
         };
+
+        Sym {
+            bindings = <
+&none   &none      &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none  &tap2_macro LESS_THAN MINUS  &tap2_macro MINUS GREATER_THAN  &tap2_macro EQUAL GREATER_THAN  &none  &none
+&trans  &none      &kp DOLLAR       &kp PERCENT   &kp CARET             &kp UNDERSCORE         &none  &none                        &none                           &none                           &none  &trans
+&none   &none      &kp EXCLAMATION  &kp AT        &kp HASH              &kp PLUS               &none  &tap2_macro LESS_THAN EQUAL  &tap2_macro GREATER_THAN EQUAL  &tap2_macro EXCL EQUAL          &none  &none
+        &kp TILDE  &none            &none         &kp LEFT_BRACE        &kp RIGHT_BRACE        &none  &none                        &none                           &none                           &none
+            >;
+        };
     };
 };
