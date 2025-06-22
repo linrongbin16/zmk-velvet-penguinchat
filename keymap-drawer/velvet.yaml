@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: velvet}
 layers:
-  '0':
+  Qwer-Mac:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -12,20 +12,20 @@ layers:
   - I
   - O
   - P
-  - {t: '[', s: '{'}
-  - $$mdi:apple-keyboard-caps$$
+  - {type: none}
+  - $$mdi:apple-keyboard-control$$
   - A
-  - S
-  - D
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - F
   - G
   - H
   - J
-  - K
-  - L
-  - {t: ;, s: ':'}
-  - {t: ']', s: '}'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: ;, h: ':', s: ':'}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-caps$$
   - Z
   - X
   - C
@@ -33,20 +33,20 @@ layers:
   - B
   - N
   - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
-  - KP ENTER
+  - {t: ',', h: <, s: <}
+  - {t: ., h: '>', s: '>'}
+  - {t: /, h: '?', s: '?'}
+  - $$mdi:apple-keyboard-option$$
+  - ESCAPE
   - $$mdi:arrow-up$$
   - $$mdi:arrow-down$$
-  - '1'
+  - {t: \, h: '|', s: '|'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace-outline$$', type: backspace}
-  - {t: '2', h: to}
+  - {t: '''', h: '"', s: '"'}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-right$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   '1':
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
