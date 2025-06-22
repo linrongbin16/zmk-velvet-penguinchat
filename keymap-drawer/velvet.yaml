@@ -118,7 +118,7 @@ layers:
   - F5
   - F6
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
   - {type: none}
   - {type: none}
