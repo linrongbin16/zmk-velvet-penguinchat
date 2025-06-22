@@ -329,3 +329,50 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
+  Sym:
+  - {type: none}
+  - {type: none}
+  - '&'
+  - '*'
+  - (
+  - )
+  - {type: none}
+  - <-
+  - ->
+  - =>
+  - {type: none}
+  - {type: none}
+  - {t: ▽, type: trans}
+  - {type: none}
+  - $
+  - '%'
+  - ^
+  - _
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {t: ▽, type: trans}
+  - {type: none}
+  - {type: none}
+  - '!'
+  - '@'
+  - '#'
+  - +
+  - {type: none}
+  - <=
+  - '>='
+  - '&tap2_macro EXCL EQUAL'
+  - {type: none}
+  - {type: none}
+  - '~'
+  - {type: none}
+  - {type: none}
+  - '{'
+  - '}'
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
