@@ -95,7 +95,7 @@ layers:
   - END
   - {type: none}
   Fun-Mac:
-  - BT CLR ALL
+  - $$mdi:bluetooth-off$$
   - {t: '$$mdi:bluetooth-connect$$', h: '1'}
   - {t: '$$mdi:bluetooth-connect$$', h: '2'}
   - {t: '$$mdi:bluetooth-connect$$', h: '3'}
@@ -236,7 +236,7 @@ layers:
   - END
   - {type: none}
   Fun-Win:
-  - BT CLR ALL
+  - $$mdi:bluetooth-off$$
   - {t: '$$mdi:bluetooth-connect$$', h: '1'}
   - {t: '$$mdi:bluetooth-connect$$', h: '2'}
   - {t: '$$mdi:bluetooth-connect$$', h: '3'}
