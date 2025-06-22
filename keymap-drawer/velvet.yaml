@@ -37,7 +37,7 @@ layers:
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-option$$
-  - ESCAPE
+  - {t: ESCAPE, h: Nav-Mac}
   - $$mdi:arrow-up$$
   - $$mdi:arrow-down$$
   - {t: \, h: '|', s: '|'}
@@ -84,7 +84,7 @@ layers:
   - $$mdi:arrow-right$$
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {type: held}
   - {type: none}
   - {type: none}
   - {type: none}
