@@ -42,11 +42,11 @@ layers:
   - $$mdi:arrow-down$$
   - {t: \, h: '|', s: '|'}
   - {t: '$$mdi:keyboard-space$$', h: Fun-Mac}
-  - {t: '$$mdi:backspace-outline$$', type: backspace}
+  - {t: '$$mdi:backspace-outline$$', h: Sym}
   - {t: '''', h: '"', s: '"'}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-right$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: Num}
   Nav-Mac:
   - {type: none}
   - Gui+Q
@@ -328,7 +328,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {type: held}
   Sym:
   - {type: none}
   - {type: none}
@@ -371,7 +371,7 @@ layers:
   - {type: none}
   - '{'
   - '}'
-  - {type: none}
+  - {type: held}
   - {type: none}
   - {type: none}
   - {type: none}
