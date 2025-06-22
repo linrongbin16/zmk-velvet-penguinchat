@@ -41,7 +41,7 @@ layers:
   - $$mdi:arrow-up$$
   - $$mdi:arrow-down$$
   - {t: \, h: '|', s: '|'}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: Fun-Mac}
   - {t: '$$mdi:backspace-outline$$', type: backspace}
   - {t: '''', h: '"', s: '"'}
   - $$mdi:arrow-left$$
@@ -135,7 +135,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {type: held}
   - {type: none}
   - {type: none}
   - {type: none}
