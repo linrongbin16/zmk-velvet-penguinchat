@@ -80,6 +80,21 @@
         };
     };
 
+    macros {
+        tap2_macro: tap2_macro {
+            compatible = "zmk,behavior-macro-two-param";
+            #binding-cells = <2>;
+            bindings =
+                <&macro_param_1to1>,
+                <&macro_tap>,
+                <&kp MACRO_PLACEHOLDER &macro_param_2to1>,
+                <&macro_tap>,
+                <&kp MACRO_PLACEHOLDER>;
+
+            label = "TAP2_MACRO";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
