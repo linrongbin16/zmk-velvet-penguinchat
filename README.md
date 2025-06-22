@@ -1,4 +1,4 @@
-# ZMK config for tokyo2006's cygnus keyboard
+# ZMK config for Penguinchat's velvet- v3 keyboard
 
 > [!IMPORTANT]
 >
