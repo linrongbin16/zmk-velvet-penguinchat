@@ -95,36 +95,36 @@ layers:
   - {type: none}
   - HOME
   Fun-Mac:
+  - BT CLR ALL
+  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '4'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '5'}
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - OUT BLE
   - {type: none}
   - $$mdi:mouse-left-click$$
   - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-up$$'}
   - $$mdi:mouse-right-click$$
   - $$mdi:mouse-move-up$$
   - {type: none}
+  - $$mdi:apple-keyboard-option$$
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
+  - OUT USB
   - {type: none}
   - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-left$$'}
   - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-down$$'}
