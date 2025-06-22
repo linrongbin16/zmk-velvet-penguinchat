@@ -565,20 +565,21 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(692, 251) rotate(-15.0)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">END</text>
+<use href="#mdi:backspace-reverse" xlink:href="#mdi:backspace-reverse" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse"/>
 </g>
 <g transform="translate(756, 245)" class="key none keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(840, 196)" class="key none keypos-43">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
-</g>
-<g transform="translate(896, 210)" class="key none keypos-44">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
-</g>
-<g transform="translate(632, 274) rotate(-30.0)" class="key keypos-45">
+<g transform="translate(840, 196)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">HOME</text>
+</g>
+<g transform="translate(896, 210)" class="key keypos-44">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">END</text>
+</g>
+<g transform="translate(632, 274) rotate(-30.0)" class="key none keypos-45">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 </g>
 </g>
@@ -656,11 +657,8 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 98)" class="key none keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(308, 98)" class="key keypos-17">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">BLE</tspan>
-</text>
+<g transform="translate(308, 98)" class="key none keypos-17">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g transform="translate(728, 98)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -701,11 +699,8 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 154)" class="key none keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(308, 154)" class="key keypos-29">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">USB</tspan>
-</text>
+<g transform="translate(308, 154)" class="key none keypos-29">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g transform="translate(728, 154)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -736,11 +731,17 @@ rect.held, rect.combo.held {
 <g transform="translate(404, 276) rotate(30.0)" class="key none keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(140, 210)" class="key none keypos-37">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(140, 210)" class="key keypos-37">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">BLE</tspan>
+</text>
 </g>
-<g transform="translate(196, 196)" class="key none keypos-38">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(196, 196)" class="key keypos-38">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">USB</tspan>
+</text>
 </g>
 <g transform="translate(280, 245)" class="key none keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -1131,20 +1132,21 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(692, 251) rotate(-15.0)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">END</text>
+<use href="#mdi:backspace-reverse" xlink:href="#mdi:backspace-reverse" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse"/>
 </g>
 <g transform="translate(756, 245)" class="key none keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(840, 196)" class="key none keypos-43">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
-</g>
-<g transform="translate(896, 210)" class="key none keypos-44">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
-</g>
-<g transform="translate(632, 274) rotate(-30.0)" class="key keypos-45">
+<g transform="translate(840, 196)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">HOME</text>
+</g>
+<g transform="translate(896, 210)" class="key keypos-44">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">END</text>
+</g>
+<g transform="translate(632, 274) rotate(-30.0)" class="key none keypos-45">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 </g>
 </g>
@@ -1222,11 +1224,8 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 98)" class="key none keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(308, 98)" class="key keypos-17">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">BLE</tspan>
-</text>
+<g transform="translate(308, 98)" class="key none keypos-17">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g transform="translate(728, 98)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1267,11 +1266,8 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 154)" class="key none keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(308, 154)" class="key keypos-29">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">USB</tspan>
-</text>
+<g transform="translate(308, 154)" class="key none keypos-29">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g transform="translate(728, 154)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1302,11 +1298,17 @@ rect.held, rect.combo.held {
 <g transform="translate(404, 276) rotate(30.0)" class="key none keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(140, 210)" class="key none keypos-37">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(140, 210)" class="key keypos-37">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">BLE</tspan>
+</text>
 </g>
-<g transform="translate(196, 196)" class="key none keypos-38">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(196, 196)" class="key keypos-38">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">USB</tspan>
+</text>
 </g>
 <g transform="translate(280, 245)" class="key none keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
