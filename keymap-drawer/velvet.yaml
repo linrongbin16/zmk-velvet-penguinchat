@@ -101,10 +101,10 @@ layers:
   - {t: '$$mdi:bluetooth-connect$$', h: '3'}
   - {t: '$$mdi:bluetooth-connect$$', h: '4'}
   - {t: '$$mdi:bluetooth-connect$$', h: '5'}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - F10
+  - F7
+  - F8
+  - F9
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
@@ -113,11 +113,11 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {type: none}
   - OUT BLE
+  - F11
+  - F4
+  - F5
+  - F6
   - {type: none}
-  - $$mdi:mouse-left-click$$
-  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-up$$'}
-  - $$mdi:mouse-right-click$$
-  - $$mdi:mouse-move-up$$
   - {type: none}
   - $$mdi:apple-keyboard-option$$
   - {type: none}
@@ -125,18 +125,18 @@ layers:
   - {type: none}
   - {type: none}
   - OUT USB
+  - F12
+  - F1
+  - F2
+  - F3
   - {type: none}
-  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-left$$'}
-  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-down$$'}
-  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-right$$'}
-  - $$mdi:mouse-move-down$$
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: held}
-  - {type: none}
+  - $$mdi:backspace-reverse$$
   - {type: none}
   - {type: none}
   - {type: none}

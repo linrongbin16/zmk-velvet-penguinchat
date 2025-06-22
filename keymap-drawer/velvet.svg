@@ -40,6 +40,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>backspace-outline</title><path d="M19,15.59L17.59,17L14,13.41L10.41,17L9,15.59L12.59,12L9,8.41L10.41,7L14,10.59L17.59,7L19,8.41L15.41,12L19,15.59M22,3A2,2 0 0,1 24,5V19A2,2 0 0,1 22,21H7C6.31,21 5.77,20.64 5.41,20.11L0,12L5.41,3.88C5.77,3.35 6.31,3 7,3H22M22,5H7L2.28,12L7,19H22V5Z" /></svg>
 
 </svg>
+<svg id="mdi:backspace-reverse">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-backspace-reverse" viewBox="0 0 24 24"><path d="M2,21H17C17.7,21 18.2,20.6 18.6,20.1L24,12L18.6,3.9C18.2,3.4 17.7,3 17,3H2A2,2 0 0,0 0,5V19A2,2 0 0,0 2,21M5,8.4L6.4,7L10,10.6L13.6,7L15,8.4L11.4,12L15,15.6L13.6,17L10,13.4L6.4,17L5,15.6L8.6,12" /></svg>
+</svg>
 <svg id="mdi:bluetooth-connect">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>bluetooth-connect</title><path d="M19,10L17,12L19,14L21,12M14.88,16.29L13,18.17V14.41M13,5.83L14.88,7.71L13,9.58M17.71,7.71L12,2H11V9.58L6.41,5L5,6.41L10.59,12L5,17.58L6.41,19L11,14.41V22H12L17.71,16.29L13.41,12M7,12L5,10L3,12L5,14L7,12Z" /></svg>
 
@@ -54,26 +57,6 @@
 </svg>
 <svg id="mdi:keyboard-tab">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>keyboard-tab</title><path d="M20,18H22V6H20M11.59,7.41L15.17,11H1V13H15.17L11.59,16.58L13,18L19,12L13,6L11.59,7.41Z" /></svg>
-
-</svg>
-<svg id="mdi:mouse">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>mouse</title><path d="M11,1.07C7.05,1.56 4,4.92 4,9H11M4,15A8,8 0 0,0 12,23A8,8 0 0,0 20,15V11H4M13,1.07V9H20C20,4.92 16.94,1.56 13,1.07Z" /></svg>
-
-</svg>
-<svg id="mdi:mouse-left-click">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>mouse-left-click</title><path d="M13 9V1.07C16.94 1.56 20 4.92 20 9H13M6.34 20.66C4.84 19.16 4 17.12 4 15V11H20V15C20 17.12 19.16 19.16 17.66 20.66C16.16 22.16 14.12 23 12 23C9.88 23 7.84 22.16 6.34 20.66M11 9V1.07C10.3 1.16 9.63 1.33 9 1.59C6.67 2.53 4.89 4.53 4.25 7C4.09 7.64 4 8.31 4 9H11M6.34 7C6.82 5.65 7.78 4.5 9 3.81V7H6.34Z" /></svg>
-
-</svg>
-<svg id="mdi:mouse-move-down">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>mouse-move-down</title><path d="M7 9H2C2 6.04 4.17 3.57 7 3.09V9M20 7H18V13H15L19 17L23 13H20V7M9 3.09V9H14C14 6.04 11.83 3.57 9 3.09M2 15C2 18.3 4.7 21 8 21S14 18.3 14 15V11H2V15Z" /></svg>
-
-</svg>
-<svg id="mdi:mouse-move-up">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>mouse-move-up</title><path d="M7 9H2C2 6.04 4.17 3.57 7 3.09V9M18 17H20V11H23L19 7L15 11H18V17M9 3.09V9H14C14 6.04 11.83 3.57 9 3.09M2 15C2 18.3 4.7 21 8 21S14 18.3 14 15V11H2V15Z" /></svg>
-
-</svg>
-<svg id="mdi:mouse-right-click">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>mouse-right-click</title><path d="M13 9V1.07C13.7 1.16 14.37 1.33 15 1.59C17.33 2.53 19.11 4.53 19.75 7C19.91 7.64 20 8.31 20 9H13M17.66 7C17.18 5.65 16.23 4.5 15 3.81V7H17.66M11 9V1.07C7.06 1.56 4 4.92 4 9H11M6.34 20.66C4.84 19.16 4 17.12 4 15V11H20V15C20 17.12 19.16 19.16 17.66 20.66C16.16 22.16 14.12 23 12 23C9.88 23 7.84 22.16 6.34 20.66Z" /></svg>
 
 </svg>
 </defs>/* end glyphs */
@@ -629,17 +612,21 @@ rect.held, rect.combo.held {
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:bluetooth-connect"/>
 <text x="0" y="24" class="key hold">5</text>
 </g>
-<g transform="translate(728, 42)" class="key none keypos-6">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(728, 42)" class="key keypos-6">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">F10</text>
 </g>
-<g transform="translate(784, 42)" class="key none keypos-7">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(784, 42)" class="key keypos-7">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">F7</text>
 </g>
-<g transform="translate(840, 28)" class="key none keypos-8">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(840, 28)" class="key keypos-8">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">F8</text>
 </g>
-<g transform="translate(896, 42)" class="key none keypos-9">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(896, 42)" class="key keypos-9">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">F9</text>
 </g>
 <g transform="translate(952, 63)" class="key none keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -671,25 +658,24 @@ rect.held, rect.combo.held {
 <tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">BLE</tspan>
 </text>
 </g>
-<g transform="translate(728, 98)" class="key none keypos-18">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(728, 98)" class="key keypos-18">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">F11</text>
 </g>
 <g transform="translate(784, 98)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:mouse-left-click" xlink:href="#mdi:mouse-left-click" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse-left-click"/>
+<text x="0" y="0" class="key tap">F4</text>
 </g>
 <g transform="translate(840, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse"/>
-<use href="#mdi:arrow-up" xlink:href="#mdi:arrow-up" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:arrow-up"/>
+<text x="0" y="0" class="key tap">F5</text>
 </g>
 <g transform="translate(896, 98)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:mouse-right-click" xlink:href="#mdi:mouse-right-click" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse-right-click"/>
+<text x="0" y="0" class="key tap">F6</text>
 </g>
-<g transform="translate(952, 119)" class="key keypos-22">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:mouse-move-up" xlink:href="#mdi:mouse-move-up" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse-move-up"/>
+<g transform="translate(952, 119)" class="key none keypos-22">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g transform="translate(1008, 119)" class="key none keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -716,27 +702,24 @@ rect.held, rect.combo.held {
 <tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">USB</tspan>
 </text>
 </g>
-<g transform="translate(728, 154)" class="key none keypos-30">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(728, 154)" class="key keypos-30">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">F12</text>
 </g>
 <g transform="translate(784, 154)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse"/>
-<use href="#mdi:arrow-left" xlink:href="#mdi:arrow-left" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:arrow-left"/>
+<text x="0" y="0" class="key tap">F1</text>
 </g>
 <g transform="translate(840, 140)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse"/>
-<use href="#mdi:arrow-down" xlink:href="#mdi:arrow-down" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:arrow-down"/>
+<text x="0" y="0" class="key tap">F2</text>
 </g>
 <g transform="translate(896, 154)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse"/>
-<use href="#mdi:arrow-right" xlink:href="#mdi:arrow-right" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:arrow-right"/>
+<text x="0" y="0" class="key tap">F3</text>
 </g>
-<g transform="translate(952, 175)" class="key keypos-34">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:mouse-move-down" xlink:href="#mdi:mouse-move-down" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse-move-down"/>
+<g transform="translate(952, 175)" class="key none keypos-34">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g transform="translate(1008, 175)" class="key none keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -756,8 +739,9 @@ rect.held, rect.combo.held {
 <g transform="translate(344, 253) rotate(15.0)" class="key held keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
-<g transform="translate(692, 251) rotate(-15.0)" class="key none keypos-41">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(692, 251) rotate(-15.0)" class="key keypos-41">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi:backspace-reverse" xlink:href="#mdi:backspace-reverse" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse"/>
 </g>
 <g transform="translate(756, 245)" class="key none keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
