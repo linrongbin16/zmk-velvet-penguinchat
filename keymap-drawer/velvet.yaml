@@ -188,3 +188,50 @@ layers:
   - $$mdi:arrow-left$$
   - $$mdi:arrow-right$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  Nav-Win:
+  - {type: none}
+  - Ctl+Q
+  - Ctl+W
+  - $$mdi:arrow-up$$
+  - Ctl+R
+  - Ctl+T
+  - Ctl+Y
+  - Ctl+U
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {t: ▽, type: trans}
+  - Ctl+A
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-right$$
+  - Ctl+F
+  - Ctl+H
+  - {type: none}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - {type: none}
+  - {t: ▽, type: trans}
+  - {type: none}
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+B
+  - Ctl+N
+  - Ctl+M
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:apple-keyboard-command$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - END
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - HOME
