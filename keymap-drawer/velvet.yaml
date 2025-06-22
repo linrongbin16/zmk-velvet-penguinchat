@@ -290,9 +290,9 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - <-
+  - ->
+  - =>
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
@@ -300,30 +300,30 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
+  - {t: '-', s: _}
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - {type: none}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
+  - {t: '=', s: +}
+  - {type: none}
+  - <=
+  - '>='
+  - '&tap2_macro EXCL EQUAL'
   - {type: none}
   - {type: none}
+  - {t: '`', s: '~'}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {type: none}
   - {type: none}
   - {type: none}
