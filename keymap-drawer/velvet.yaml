@@ -37,16 +37,16 @@ layers:
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-option$$
-  - {t: ESC, h: Nav-Mac}
+  - {t: \, h: '|', s: '|'}
   - PgDn
   - PgUp
-  - {t: \, h: '|', s: '|'}
   - {t: '$$mdi:keyboard-space$$', h: Fun-Mac}
+  - {t: ESC, h: Nav-Mac}
+  - {t: '$$mdi:keyboard-return$$', h: Num}
   - {t: '$$mdi:backspace-outline$$', h: Sym}
-  - {t: '''', h: '"', s: '"'}
   - HOME
   - END
-  - {t: '$$mdi:keyboard-return$$', h: Num}
+  - {t: '''', h: '"', s: '"'}
   Nav-Mac:
   - {type: none}
   - Gui+Q
@@ -84,13 +84,13 @@ layers:
   - {type: none}
   - {type: none}
   - $$mdi:apple-keyboard-option$$
-  - {type: held}
+  - {type: none}
   - PgDn
   - PgUp
   - {type: none}
+  - {type: held}
   - {type: none}
   - $$mdi:backspace-reverse$$
-  - {type: none}
   - HOME
   - END
   - {type: none}
@@ -134,10 +134,10 @@ layers:
   - {type: none}
   - OUT BLE
   - OUT USB
-  - {type: none}
   - {type: held}
-  - $$mdi:backspace-reverse$$
   - {type: none}
+  - {type: none}
+  - $$mdi:backspace-reverse$$
   - {type: none}
   - {type: none}
   - {type: none}
@@ -178,16 +178,16 @@ layers:
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-command$$
-  - {t: ESC, h: Nav-Win}
+  - {t: \, h: '|', s: '|'}
   - PgDn
   - PgUp
-  - {t: \, h: '|', s: '|'}
   - {t: '$$mdi:keyboard-space$$', h: Fun-Win}
+  - {t: ESC, h: Nav-Win}
+  - {t: '$$mdi:keyboard-return$$', h: Num}
   - {t: '$$mdi:backspace-outline$$', h: Sym}
-  - {t: '''', h: '"', s: '"'}
   - HOME
   - END
-  - {t: '$$mdi:keyboard-return$$', h: Num}
+  - {t: '''', h: '"', s: '"'}
   Nav-Win:
   - {type: none}
   - Ctl+Q
@@ -225,13 +225,13 @@ layers:
   - {type: none}
   - {type: none}
   - $$mdi:apple-keyboard-command$$
-  - {type: held}
+  - {type: none}
   - PgDn
   - PgUp
   - {type: none}
+  - {type: held}
   - {type: none}
   - $$mdi:backspace-reverse$$
-  - {type: none}
   - HOME
   - END
   - {type: none}
@@ -275,10 +275,10 @@ layers:
   - {type: none}
   - OUT BLE
   - OUT USB
-  - {type: none}
   - {type: held}
-  - $$mdi:backspace-reverse$$
   - {type: none}
+  - {type: none}
+  - $$mdi:backspace-reverse$$
   - {type: none}
   - {type: none}
   - {type: none}
@@ -324,11 +324,11 @@ layers:
   - {type: none}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
   - {type: held}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   Sym:
   - {type: none}
   - {type: none}
@@ -371,8 +371,8 @@ layers:
   - {type: none}
   - '{'
   - '}'
-  - {type: held}
   - {type: none}
+  - {type: held}
   - {type: none}
   - {type: none}
   - {type: none}
