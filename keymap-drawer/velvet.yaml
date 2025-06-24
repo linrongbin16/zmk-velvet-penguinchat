@@ -124,7 +124,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - BT CLR ALL
+  - {t: '$$mdi:bluetooth-off$$', h: all}
   - F12
   - F1
   - F2
@@ -265,7 +265,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - BT CLR ALL
+  - {t: '$$mdi:bluetooth-off$$', h: all}
   - F12
   - F1
   - F2
