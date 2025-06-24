@@ -56,7 +56,7 @@ layers:
   - Gui+T
   - Gui+Y
   - Gui+U
-  - {type: none}
+  - PgUp
   - {type: none}
   - {type: none}
   - {type: none}
@@ -67,9 +67,9 @@ layers:
   - $$mdi:arrow-right$$
   - Gui+F
   - Gui+H
-  - {type: none}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-command$$
+  - HOME
+  - PgDn
+  - END
   - {type: none}
   - {t: ▽, type: trans}
   - {type: none}
@@ -85,14 +85,14 @@ layers:
   - {type: none}
   - $$mdi:apple-keyboard-option$$
   - {type: none}
-  - PgDn
-  - PgUp
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
   - {type: none}
   - {type: held}
   - {type: none}
   - $$mdi:backspace-reverse$$
-  - HOME
-  - END
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
   - {type: none}
   Fun-Mac:
   - $$mdi:download-circle$$
