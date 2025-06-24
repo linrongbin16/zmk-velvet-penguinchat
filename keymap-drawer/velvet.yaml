@@ -15,14 +15,14 @@ layers:
   - {type: none}
   - $$mdi:apple-keyboard-control$$
   - A
-  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - S
+  - D
   - F
   - G
   - H
   - J
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-command$$'}
+  - K
+  - L
   - {t: ;, h: ':', s: ':'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-caps$$
@@ -38,14 +38,14 @@ layers:
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-option$$
   - {t: \, h: '|', s: '|'}
-  - PgDn
-  - PgUp
-  - {t: '$$mdi:keyboard-space$$', h: Fun-Mac}
-  - {t: ESC, h: Nav-Mac}
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
+  - {t: ESC, h: Fun-Mac}
+  - {t: '$$mdi:keyboard-space$$', h: Nav-Mac}
   - {t: '$$mdi:keyboard-return$$', h: Num}
   - {t: '$$mdi:backspace-outline$$', h: Sym}
-  - HOME
-  - END
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
   - {t: '''', h: '"', s: '"'}
   Nav-Mac:
   - {type: none}
@@ -156,14 +156,14 @@ layers:
   - {type: none}
   - $$mdi:apple-keyboard-control$$
   - A
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - S
+  - D
   - F
   - G
   - H
   - J
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - K
+  - L
   - {t: ;, h: ':', s: ':'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-caps$$
@@ -179,14 +179,14 @@ layers:
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-command$$
   - {t: \, h: '|', s: '|'}
-  - PgDn
-  - PgUp
-  - {t: '$$mdi:keyboard-space$$', h: Fun-Win}
-  - {t: ESC, h: Nav-Win}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - {t: ESC, h: Fun-Win}
+  - {t: '$$mdi:keyboard-space$$', h: Nav-Win}
   - {t: '$$mdi:keyboard-return$$', h: Num}
   - {t: '$$mdi:backspace-outline$$', h: Sym}
-  - HOME
-  - END
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
   - {t: '''', h: '"', s: '"'}
   Nav-Win:
   - {type: none}
