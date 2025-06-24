@@ -109,10 +109,10 @@
 
         Nav-Mac {
             bindings = <
-&none   &kp LG(Q)  &kp LG(W)       &kp UP_ARROW    &kp LG(R)        &kp LG(T)  &kp LG(Y)  &kp LG(U)   &none            &none          &none  &none
-&trans  &kp LG(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(F)  &kp LG(H)  &none       &kp RIGHT_SHIFT  &kp RIGHT_GUI  &none  &trans
+&none   &kp LG(Q)  &kp LG(W)       &kp UP_ARROW    &kp LG(R)        &kp LG(T)  &kp LG(Y)  &kp LG(U)   &kp PAGE_UP      &none          &none  &none
+&trans  &kp LG(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(F)  &kp LG(H)  &kp HOME    &kp PAGE_DOWN    &kp END        &none  &trans
 &none   &kp LG(Z)  &kp LG(X)       &kp LG(C)       &kp LG(V)        &kp LG(B)  &kp LG(N)  &kp LG(M)   &none            &none          &none  &kp RIGHT_ALT
-        &none      &kp PAGE_DOWN   &kp PAGE_UP     &none            &none      &none      &kp DELETE  &kp HOME         &kp END        &none
+        &none      &kp LEFT_GUI    &kp LEFT_SHIFT  &none            &none      &none      &kp DELETE  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &none
             >;
         };
 
