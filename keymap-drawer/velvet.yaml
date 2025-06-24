@@ -250,8 +250,8 @@ layers:
   - $$mdi:download-circle$$
   - {t: ▽, type: trans}
   - {type: none}
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
+  - OUT BLE
+  - OUT USB
   - {type: none}
   - $$mdi:bluetooth-off$$
   - F11
@@ -273,8 +273,8 @@ layers:
   - {type: none}
   - {t: Qwer-Mac, h: to}
   - {type: none}
-  - OUT BLE
-  - OUT USB
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
   - {type: held}
   - {type: none}
   - {type: none}
