@@ -214,6 +214,8 @@ parse_config:
       tap: ">="
     "&tap2_macro EXCLAMATION EQUAL":
       tap: "!="
+    "&tap2_macro EXCL EQUAL":
+      tap: "!="
     "&tap2_macro EQUAL GREATER_THAN":
       tap: "=>"
 
