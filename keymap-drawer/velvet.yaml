@@ -316,7 +316,7 @@ layers:
   - {type: none}
   - <=
   - '>='
-  - '&tap2_macro EXCL EQUAL'
+  - '!='
   - {type: none}
   - {type: none}
   - {t: '`', s: '~'}
@@ -363,7 +363,7 @@ layers:
   - {type: none}
   - <=
   - '>='
-  - '&tap2_macro EXCL EQUAL'
+  - '!='
   - {type: none}
   - {type: none}
   - '~'
