@@ -325,7 +325,7 @@ parse_config:
     "&bt BT_SEL 4":
       tap: $$mdi:bluetooth-connect$$
       hold: 5
-    "&bt BT_ALL_CLR":
+    "&bt BT_CLR_ALL":
       tap: $$mdi:bluetooth-off$$
       hold: "all"
     "&out OUT_TOG":
