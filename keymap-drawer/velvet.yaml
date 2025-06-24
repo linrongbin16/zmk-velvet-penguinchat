@@ -109,8 +109,8 @@ layers:
   - $$mdi:download-circle$$
   - {t: ▽, type: trans}
   - {type: none}
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-shift$$
+  - OUT BLE
+  - OUT USB
   - {type: none}
   - $$mdi:bluetooth-off$$
   - F11
@@ -132,8 +132,8 @@ layers:
   - {type: none}
   - {t: Qwer-Win, h: to}
   - {type: none}
-  - OUT BLE
-  - OUT USB
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
   - {type: held}
   - {type: none}
   - {type: none}
@@ -197,7 +197,7 @@ layers:
   - Ctl+T
   - Ctl+Y
   - Ctl+U
-  - {type: none}
+  - PgUp
   - {type: none}
   - {type: none}
   - {type: none}
@@ -208,9 +208,9 @@ layers:
   - $$mdi:arrow-right$$
   - Ctl+F
   - Ctl+H
-  - {type: none}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
+  - HOME
+  - PgDn
+  - END
   - {type: none}
   - {t: ▽, type: trans}
   - {type: none}
@@ -226,14 +226,14 @@ layers:
   - {type: none}
   - $$mdi:apple-keyboard-command$$
   - {type: none}
-  - PgDn
-  - PgUp
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
   - {type: none}
   - {type: held}
   - {type: none}
   - $$mdi:backspace-reverse$$
-  - HOME
-  - END
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
   - {type: none}
   Fun-Win:
   - $$mdi:download-circle$$
