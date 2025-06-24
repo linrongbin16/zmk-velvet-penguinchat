@@ -119,9 +119,9 @@
         Fun-Mac {
             bindings = <
 &bootloader   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4    &kp F10  &kp F7      &kp F8  &kp F9  &none  &bootloader
-&trans        &none         &kp LEFT_GUI  &kp LEFT_SHIFT  &none         &bt BT_CLR      &kp F11  &kp F4      &kp F5  &kp F6  &none  &trans
+&trans        &none         &out OUT_BLE  &out OUT_USB    &none         &bt BT_CLR      &kp F11  &kp F4      &kp F5  &kp F6  &none  &trans
 &kp LEFT_ALT  &none         &none         &none           &none         &bt BT_CLR_ALL  &kp F12  &kp F1      &kp F2  &kp F3  &none  &to 3
-              &none         &out OUT_BLE  &out OUT_USB    &none         &none           &none    &kp DELETE  &none   &none   &none
+              &none         &kp LEFT_GUI  &kp LEFT_SHIFT  &none         &none           &none    &kp DELETE  &none   &none   &none
             >;
         };
 
@@ -136,10 +136,10 @@
 
         Nav-Win {
             bindings = <
-&none   &kp LC(Q)  &kp LC(W)       &kp UP_ARROW    &kp LC(R)        &kp LC(T)  &kp LC(Y)  &kp LC(U)   &none            &none          &none  &none
-&trans  &kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(F)  &kp LC(H)  &none       &kp RIGHT_SHIFT  &kp RIGHT_ALT  &none  &trans
+&none   &kp LC(Q)  &kp LC(W)       &kp UP_ARROW    &kp LC(R)        &kp LC(T)  &kp LC(Y)  &kp LC(U)   &kp PAGE_UP      &none          &none  &none
+&trans  &kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(F)  &kp LC(H)  &kp HOME    &kp PAGE_DOWN    &kp END        &none  &trans
 &none   &kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(B)  &kp LC(N)  &kp LC(M)   &none            &none          &none  &kp RIGHT_GUI
-        &none      &kp PAGE_DOWN   &kp PAGE_UP     &none            &none      &none      &kp DELETE  &kp HOME         &kp END        &none
+        &none      &kp LEFT_ALT    &kp LEFT_SHIFT  &none            &none      &none      &kp DELETE  &kp RIGHT_SHIFT  &kp RIGHT_ALT  &none
             >;
         };
 
