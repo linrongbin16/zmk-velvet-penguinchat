@@ -327,7 +327,7 @@ parse_config:
       hold: 5
     "&bt BT_CLR_ALL":
       tap: $$mdi:bluetooth-off$$
-      hold: "all"
+      hold: "All"
     "&out OUT_TOG":
       shifted: $$mdi:usb$$
       tap: $$mdi:toggle-switch$$
