@@ -124,7 +124,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: '$$mdi:bluetooth-off$$', h: all}
+  - {t: '$$mdi:bluetooth-off$$', h: All}
   - F12
   - F1
   - F2
@@ -265,7 +265,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: '$$mdi:bluetooth-off$$', h: all}
+  - {t: '$$mdi:bluetooth-off$$', h: All}
   - F12
   - F1
   - F2
