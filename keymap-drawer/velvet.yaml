@@ -15,14 +15,14 @@ layers:
   - {type: none}
   - $$mdi:apple-keyboard-control$$
   - A
-  - S
-  - D
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - F
   - G
   - H
   - J
-  - K
-  - L
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ;, h: ':', s: ':'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-caps$$
@@ -109,8 +109,8 @@ layers:
   - $$mdi:download-circle$$
   - {t: ▽, type: trans}
   - {type: none}
-  - OUT BLE
-  - OUT USB
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
   - {type: none}
   - $$mdi:bluetooth-off$$
   - F11
@@ -132,8 +132,8 @@ layers:
   - {type: none}
   - {t: Qwer-Win, h: to}
   - {type: none}
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-shift$$
+  - OUT BLE
+  - OUT USB
   - {type: held}
   - {type: none}
   - {type: none}
