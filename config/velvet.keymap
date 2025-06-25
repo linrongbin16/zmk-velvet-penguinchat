@@ -100,19 +100,19 @@
 
         Qwer-Mac {
             bindings = <
-&kp TAB           &kp Q               &kp W            &kp E              &kp R       &kp T         &kp Y          &kp U             &kp I                &kp O                 &kp P                           &none
-&kp LEFT_CONTROL  &kp A               &hml LEFT_GUI S  &hml LEFT_SHIFT D  &kp F       &kp G         &kp H          &kp J             &hmr RIGHT_SHIFT K   &hmr RIGHT_GUI L      &as COLON SEMI                  &kp RIGHT_CONTROL
-&kp CAPSLOCK      &kp Z               &kp X            &kp C              &kp V       &kp B         &kp N          &kp M             &as LESS_THAN COMMA  &as GREATER_THAN DOT  &as QUESTION SLASH              &kp RIGHT_ALT
-                  &as PIPE BACKSLASH  &kp LEFT_GUI     &kp LEFT_SHIFT     &mol 2 ESC  &mor 1 SPACE  &mor 6 RETURN  &mor 7 BACKSPACE  &kp RIGHT_SHIFT      &kp RIGHT_GUI         &as DOUBLE_QUOTES SINGLE_QUOTE
+&kp TAB           &kp Q               &kp W             &kp E              &kp R       &kp T         &kp Y          &kp U             &kp I                 &kp O                  &kp P                           &none
+&kp LEFT_CONTROL  &kp A               &hml LEFT_GUI S   &hml LEFT_SHIFT D  &kp F       &kp G         &kp H          &kp J             &hmr RIGHT_SHIFT K    &hmr RIGHT_GUI L       &as COLON SEMI                  &kp RIGHT_CONTROL
+&kp CAPSLOCK      &kp Z               &kp X             &kp C              &kp V       &kp B         &kp N          &kp M             &as LESS_THAN COMMA   &as GREATER_THAN DOT   &as QUESTION SLASH              &kp RIGHT_ALT
+                  &as PIPE BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mol 2 ESC  &mor 1 SPACE  &mor 6 RETURN  &mor 7 BACKSPACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &as DOUBLE_QUOTES SINGLE_QUOTE
             >;
         };
 
         Nav-Mac {
             bindings = <
-&none   &kp LG(Q)  &kp LG(W)       &kp UP_ARROW    &kp LG(R)        &kp LG(T)  &kp LG(Y)  &kp LG(U)   &kp PAGE_UP      &none          &none  &none
-&trans  &kp LG(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(F)  &kp LG(H)  &kp HOME    &kp PAGE_DOWN    &kp END        &none  &trans
-&none   &kp LG(Z)  &kp LG(X)       &kp LG(C)       &kp LG(V)        &kp LG(B)  &kp LG(N)  &kp LG(M)   &none            &none          &none  &kp RIGHT_ALT
-        &none      &none           &none           &none            &none      &none      &kp DELETE  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &none
+&none   &kp LG(Q)  &kp LG(W)       &kp UP_ARROW    &kp LG(R)        &kp LG(T)  &kp LG(Y)  &kp LG(U)   &kp PAGE_UP    &none    &none  &none
+&trans  &kp LG(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(F)  &kp LG(H)  &kp HOME    &kp PAGE_DOWN  &kp END  &none  &trans
+&none   &kp LG(Z)  &kp LG(X)       &kp LG(C)       &kp LG(V)        &kp LG(B)  &kp LG(N)  &kp LG(M)   &none          &none    &none  &kp RIGHT_ALT
+        &none      &none           &none           &none            &none      &none      &kp DELETE  &none          &none    &none
             >;
         };
 
@@ -127,19 +127,19 @@
 
         Qwer-Win {
             bindings = <
-&kp TAB           &kp Q               &kp W                &kp E              &kp R       &kp T         &kp Y          &kp U             &kp I                &kp O                 &kp P                           &none
-&kp LEFT_CONTROL  &kp A               &hml LEFT_CONTROL S  &hml LEFT_SHIFT D  &kp F       &kp G         &kp H          &kp J             &hmr RIGHT_SHIFT K   &hmr RIGHT_CONTROL L  &as COLON SEMI                  &kp RIGHT_CONTROL
-&kp CAPSLOCK      &kp Z               &kp X                &kp C              &kp V       &kp B         &kp N          &kp M             &as LESS_THAN COMMA  &as GREATER_THAN DOT  &as QUESTION SLASH              &kp RIGHT_GUI
-                  &as PIPE BACKSLASH  &kp LEFT_ALT         &kp LEFT_SHIFT     &mol 5 ESC  &mor 4 SPACE  &mor 6 RETURN  &mor 7 BACKSPACE  &kp RIGHT_SHIFT      &kp RIGHT_ALT         &as DOUBLE_QUOTES SINGLE_QUOTE
+&kp TAB           &kp Q               &kp W                &kp E              &kp R       &kp T         &kp Y          &kp U             &kp I                 &kp O                  &kp P                           &none
+&kp LEFT_CONTROL  &kp A               &hml LEFT_CONTROL S  &hml LEFT_SHIFT D  &kp F       &kp G         &kp H          &kp J             &hmr RIGHT_SHIFT K    &hmr RIGHT_CONTROL L   &as COLON SEMI                  &kp RIGHT_CONTROL
+&kp CAPSLOCK      &kp Z               &kp X                &kp C              &kp V       &kp B         &kp N          &kp M             &as LESS_THAN COMMA   &as GREATER_THAN DOT   &as QUESTION SLASH              &kp RIGHT_GUI
+                  &as PIPE BACKSLASH  &kp LEFT_BRACKET     &kp RIGHT_BRACKET  &mol 5 ESC  &mor 4 SPACE  &mor 6 RETURN  &mor 7 BACKSPACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &as DOUBLE_QUOTES SINGLE_QUOTE
             >;
         };
 
         Nav-Win {
             bindings = <
-&none   &kp LC(Q)  &kp LC(W)       &kp UP_ARROW    &kp LC(R)        &kp LC(T)  &kp LC(Y)  &kp LC(U)   &kp PAGE_UP      &none          &none  &none
-&trans  &kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(F)  &kp LC(H)  &kp HOME    &kp PAGE_DOWN    &kp END        &none  &trans
-&none   &kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(B)  &kp LC(N)  &kp LC(M)   &none            &none          &none  &kp RIGHT_GUI
-        &none      &none           &none           &none            &none      &none      &kp DELETE  &kp RIGHT_SHIFT  &kp RIGHT_ALT  &none
+&none   &kp LC(Q)  &kp LC(W)       &kp UP_ARROW    &kp LC(R)        &kp LC(T)  &kp LC(Y)  &kp LC(U)   &kp PAGE_UP    &none    &none  &none
+&trans  &kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(F)  &kp LC(H)  &kp HOME    &kp PAGE_DOWN  &kp END  &none  &trans
+&none   &kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(B)  &kp LC(N)  &kp LC(M)   &none          &none    &none  &kp RIGHT_GUI
+        &none      &none           &none           &none            &none      &none      &kp DELETE  &none          &none    &none
             >;
         };
 
