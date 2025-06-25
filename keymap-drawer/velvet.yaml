@@ -38,14 +38,14 @@ layers:
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-option$$
   - {t: \, h: '|', s: '|'}
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: ESC, h: Fun-Mac}
   - {t: '$$mdi:keyboard-space$$', h: Nav-Mac}
   - {t: '$$mdi:keyboard-return$$', h: Num}
   - {t: '$$mdi:backspace-outline$$', h: Sym}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-command$$
+  - (
+  - )
   - {t: '''', h: '"', s: '"'}
   Nav-Mac:
   - {type: none}
@@ -91,8 +91,8 @@ layers:
   - {type: held}
   - {type: none}
   - $$mdi:backspace-reverse$$
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-command$$
+  - {type: none}
+  - {type: none}
   - {type: none}
   Fun-Mac:
   - $$mdi:download-circle$$
@@ -179,14 +179,14 @@ layers:
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-command$$
   - {t: \, h: '|', s: '|'}
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: ESC, h: Fun-Win}
   - {t: '$$mdi:keyboard-space$$', h: Nav-Win}
   - {t: '$$mdi:keyboard-return$$', h: Num}
   - {t: '$$mdi:backspace-outline$$', h: Sym}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
+  - (
+  - )
   - {t: '''', h: '"', s: '"'}
   Nav-Win:
   - {type: none}
@@ -232,8 +232,8 @@ layers:
   - {type: held}
   - {type: none}
   - $$mdi:backspace-reverse$$
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
+  - {type: none}
+  - {type: none}
   - {type: none}
   Fun-Win:
   - $$mdi:download-circle$$
