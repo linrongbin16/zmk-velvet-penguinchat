@@ -292,7 +292,7 @@ layers:
   - {type: none}
   - <-
   - ->
-  - '&tap2_macro EQUAL GREATER_THAN'
+  - =>
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
@@ -339,7 +339,7 @@ layers:
   - {type: none}
   - <-
   - ->
-  - '&tap2_macro EQUAL GREATER_THAN'
+  - =>
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
