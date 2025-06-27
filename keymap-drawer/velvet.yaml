@@ -38,14 +38,14 @@ layers:
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-option$$
   - {t: \, h: '|', s: '|'}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {type: none}
+  - {type: none}
   - {t: ESC, h: Fun-Mac}
   - {t: '$$mdi:keyboard-space$$', h: Nav-Mac}
   - {t: '$$mdi:keyboard-return$$', h: Num}
   - {t: '$$mdi:backspace-outline$$', h: Sym}
-  - (
-  - )
+  - {type: none}
+  - {type: none}
   - {t: '''', h: '"', s: '"'}
   Nav-Mac:
   - {type: none}
@@ -179,14 +179,14 @@ layers:
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-command$$
   - {t: \, h: '|', s: '|'}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {type: none}
+  - {type: none}
   - {t: ESC, h: Fun-Win}
   - {t: '$$mdi:keyboard-space$$', h: Nav-Win}
   - {t: '$$mdi:keyboard-return$$', h: Num}
   - {t: '$$mdi:backspace-outline$$', h: Sym}
-  - (
-  - )
+  - {type: none}
+  - {type: none}
   - {t: '''', h: '"', s: '"'}
   Nav-Win:
   - {type: none}
@@ -302,9 +302,9 @@ layers:
   - {t: '6', s: ^}
   - {t: '-', s: _}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - <=
+  - '>='
+  - '!='
   - {type: none}
   - {t: ▽, type: trans}
   - {type: none}
@@ -314,9 +314,9 @@ layers:
   - {t: '3', s: '#'}
   - {t: '=', s: +}
   - {type: none}
-  - <=
-  - '>='
-  - '!='
+  - {type: none}
+  - '&tap2_macro PLUS EQUAL'
+  - '&tap2_macro MINUS EQUAL'
   - {type: none}
   - {type: none}
   - {t: '`', s: '~'}
@@ -349,9 +349,9 @@ layers:
   - ^
   - _
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - <=
+  - '>='
+  - '!='
   - {type: none}
   - {t: ▽, type: trans}
   - {type: none}
@@ -361,9 +361,9 @@ layers:
   - '#'
   - +
   - {type: none}
-  - <=
-  - '>='
-  - '!='
+  - {type: none}
+  - '&tap2_macro PLUS EQUAL'
+  - '&tap2_macro MINUS EQUAL'
   - {type: none}
   - {type: none}
   - '~'
