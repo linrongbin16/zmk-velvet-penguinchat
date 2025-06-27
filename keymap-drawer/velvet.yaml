@@ -132,8 +132,8 @@ layers:
   - {type: none}
   - {t: Qwer-Win, h: to}
   - {type: none}
-  - OUT BLE
-  - OUT USB
+  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:bluetooth$$'}
+  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:usb$$'}
   - {type: held}
   - {type: none}
   - {type: none}
@@ -273,8 +273,8 @@ layers:
   - {type: none}
   - {t: Qwer-Mac, h: to}
   - {type: none}
-  - OUT BLE
-  - OUT USB
+  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:bluetooth$$'}
+  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:usb$$'}
   - {type: held}
   - {type: none}
   - {type: none}
@@ -292,7 +292,7 @@ layers:
   - {type: none}
   - <-
   - ->
-  - =>
+  - '&tap2_macro EQUAL GREATER_THAN'
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
@@ -315,8 +315,8 @@ layers:
   - {t: '=', s: +}
   - {type: none}
   - {type: none}
-  - '&tap2_macro PLUS EQUAL'
-  - '&tap2_macro MINUS EQUAL'
+  - +=
+  - -=
   - {type: none}
   - {type: none}
   - {t: '`', s: '~'}
@@ -339,7 +339,7 @@ layers:
   - {type: none}
   - <-
   - ->
-  - =>
+  - '&tap2_macro EQUAL GREATER_THAN'
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
@@ -362,8 +362,8 @@ layers:
   - +
   - {type: none}
   - {type: none}
-  - '&tap2_macro PLUS EQUAL'
-  - '&tap2_macro MINUS EQUAL'
+  - +=
+  - -=
   - {type: none}
   - {type: none}
   - '~'
