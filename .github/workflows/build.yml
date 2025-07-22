@@ -42,6 +42,7 @@ jobs:
           convert --version
       - uses: actions/checkout@v4
       - run: |
+          git checkout -b ${{ github.ref_name }}
           git config --global user.email "linrongbin16@outlook.com"
           git config --global user.name "linrongbin16"
           git pull
