@@ -96,11 +96,11 @@ layers:
   - {type: none}
   Fun-Mac:
   - $$mdi:download-circle$$
-  - {type: none}
-  - {t: Clear, h: All, s: '$$mdi:bluetooth-off$$'}
-  - {t: Clear, s: '$$mdi:bluetooth-off$$'}
-  - {t: '$$mdi:bluetooth-off$$', h: '1'}
   - {t: '$$mdi:bluetooth$$', h: '1'}
+  - {t: '$$mdi:bluetooth$$', h: '2'}
+  - {t: '$$mdi:bluetooth$$', h: '3'}
+  - {t: '$$mdi:bluetooth$$', h: '4'}
+  - {t: '$$mdi:bluetooth$$', h: '5'}
   - F10
   - F7
   - F8
@@ -111,8 +111,8 @@ layers:
   - {type: none}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:bluetooth-off$$', h: '2'}
-  - {t: '$$mdi:bluetooth$$', h: '2'}
+  - {type: none}
+  - {type: none}
   - F11
   - F4
   - F5
@@ -120,11 +120,11 @@ layers:
   - {type: none}
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
+  - {t: Clear, h: All, s: '$$mdi:bluetooth-off$$'}
+  - {t: Clear, s: '$$mdi:bluetooth-off$$'}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {t: '$$mdi:bluetooth-off$$', h: '3'}
-  - {t: '$$mdi:bluetooth$$', h: '3'}
+  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:bluetooth$$'}
+  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:usb$$'}
   - F12
   - F1
   - F2
@@ -132,8 +132,8 @@ layers:
   - {type: none}
   - {t: Qwer-Win, h: to}
   - {type: none}
-  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:bluetooth$$'}
-  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:usb$$'}
+  - {type: none}
+  - {type: none}
   - {type: held}
   - {type: none}
   - {type: none}
@@ -237,11 +237,11 @@ layers:
   - {type: none}
   Fun-Win:
   - $$mdi:download-circle$$
-  - {type: none}
-  - {t: Clear, h: All, s: '$$mdi:bluetooth-off$$'}
-  - {t: Clear, s: '$$mdi:bluetooth-off$$'}
-  - {t: '$$mdi:bluetooth-off$$', h: '1'}
   - {t: '$$mdi:bluetooth$$', h: '1'}
+  - {t: '$$mdi:bluetooth$$', h: '2'}
+  - {t: '$$mdi:bluetooth$$', h: '3'}
+  - {t: '$$mdi:bluetooth$$', h: '4'}
+  - {t: '$$mdi:bluetooth$$', h: '5'}
   - F10
   - F7
   - F8
@@ -252,8 +252,8 @@ layers:
   - {type: none}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:bluetooth-off$$', h: '2'}
-  - {t: '$$mdi:bluetooth$$', h: '2'}
+  - {type: none}
+  - {type: none}
   - F11
   - F4
   - F5
@@ -261,11 +261,11 @@ layers:
   - {type: none}
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-command$$
+  - {t: Clear, h: All, s: '$$mdi:bluetooth-off$$'}
+  - {t: Clear, s: '$$mdi:bluetooth-off$$'}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {t: '$$mdi:bluetooth-off$$', h: '3'}
-  - {t: '$$mdi:bluetooth$$', h: '3'}
+  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:bluetooth$$'}
+  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:usb$$'}
   - F12
   - F1
   - F2
@@ -273,8 +273,8 @@ layers:
   - {type: none}
   - {t: Qwer-Mac, h: to}
   - {type: none}
-  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:bluetooth$$'}
-  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:usb$$'}
+  - {type: none}
+  - {type: none}
   - {type: held}
   - {type: none}
   - {type: none}
