@@ -23,9 +23,9 @@
             flavor = "tap-preferred";
         };
 
-        hml: homerow_mods_left {
+        hml: hrm_left {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS_LEFT";
+            label = "HRM_LEFT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -37,9 +37,9 @@
             hold-trigger-on-release;
         };
 
-        hmr: homerow_mods_right {
+        hmr: hrm_right {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS_RIGHT";
+            label = "HRM_RIGHT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -79,9 +79,9 @@
             hold-trigger-on-release;
         };
 
-        hmls: homerow_mods_left_shift {
+        hmls: hrm_left_shift {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS_LEFT_SHIFT";
+            label = "HRM_LEFT_SHIFT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -93,9 +93,9 @@
             hold-trigger-on-release;
         };
 
-        hmrs: homerow_mods_right_shift {
+        hmrs: hrm_right_shift {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS_RIGHT_SHIFT";
+            label = "HRM_RIGHT_SHIFT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
