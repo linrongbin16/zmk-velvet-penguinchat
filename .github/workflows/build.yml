@@ -1,4 +1,4 @@
-name: Build ZMK firmware
+name: Build
 on:
   workflow_dispatch:
   pull_request:
