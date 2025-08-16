@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: velvet}
 layers:
   Qwer-Mac:
-  - $$mdi:keyboard-tab$$
+  - {type: none}
   - Q
   - W
   - E
@@ -37,7 +37,7 @@ layers:
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-option$$
-  - {t: \, h: Nav, s: '|'}
+  - {t: '$$mdi:keyboard-tab$$', h: Nav}
   - {type: none}
   - {type: none}
   - {t: ESC, h: Fun-Mac}
@@ -46,7 +46,7 @@ layers:
   - {t: '$$mdi:backspace-outline$$', h: Sym}
   - {type: none}
   - {type: none}
-  - {t: '''', h: '"', s: '"'}
+  - {t: \, h: '|', s: '|'}
   Edit-Mac:
   - {t: ▽, type: trans}
   - Gui+Q
@@ -142,7 +142,7 @@ layers:
   - {type: none}
   - {type: none}
   Qwer-Win:
-  - $$mdi:keyboard-tab$$
+  - {type: none}
   - Q
   - W
   - E
@@ -178,7 +178,7 @@ layers:
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-command$$
-  - {t: \, h: Nav, s: '|'}
+  - {t: '$$mdi:keyboard-tab$$', h: Nav}
   - {type: none}
   - {type: none}
   - {t: ESC, h: Fun-Win}
@@ -187,7 +187,7 @@ layers:
   - {t: '$$mdi:backspace-outline$$', h: Sym}
   - {type: none}
   - {type: none}
-  - {t: '''', h: '"', s: '"'}
+  - {t: \, h: '|', s: '|'}
   Edit-Win:
   - {t: ▽, type: trans}
   - Ctl+Q
