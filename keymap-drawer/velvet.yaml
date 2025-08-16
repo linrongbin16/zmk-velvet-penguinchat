@@ -189,7 +189,7 @@ layers:
   - {type: none}
   - {t: '''', h: '"', s: '"'}
   Edit-Win:
-  - {type: none}
+  - {t: ▽, type: trans}
   - Ctl+Q
   - Ctl+W
   - Ctl+E
@@ -200,7 +200,7 @@ layers:
   - Ctl+I
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+A
   - Ctl+S
@@ -283,7 +283,7 @@ layers:
   - {type: none}
   - {type: none}
   Nav:
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - {type: none}
   - $$mdi:arrow-up$$
@@ -294,7 +294,7 @@ layers:
   - PgUp
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: none}
   - $$mdi:arrow-left$$
@@ -330,7 +330,7 @@ layers:
   - {type: none}
   - {type: none}
   Num:
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -341,9 +341,9 @@ layers:
   - ->
   - =>
   - {type: none}
-  - {type: none}
   - {t: ▽, type: trans}
-  - {type: none}
+  - {t: ▽, type: trans}
+  - {t: '''', h: '"', s: '"'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
@@ -355,7 +355,7 @@ layers:
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: none}
+  - {t: \, h: '|', s: '|'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -377,7 +377,7 @@ layers:
   - {type: none}
   - {type: none}
   Sym:
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - '&'
   - '*'
@@ -388,9 +388,9 @@ layers:
   - ->
   - =>
   - {type: none}
-  - {type: none}
   - {t: ▽, type: trans}
-  - {type: none}
+  - {t: ▽, type: trans}
+  - '"'
   - $
   - '%'
   - ^
@@ -402,7 +402,7 @@ layers:
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: none}
+  - '|'
   - '!'
   - '@'
   - '#'
