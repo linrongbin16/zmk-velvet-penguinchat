@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {type: none}
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-control$$
   - A
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
@@ -25,7 +25,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ;, h: ':', s: ':'}
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:apple-keyboard-option$$
   - Z
   - X
   - C
@@ -48,7 +48,7 @@ layers:
   - {type: none}
   - {t: '''', h: '"', s: '"'}
   Edit-Mac:
-  - {type: none}
+  - {t: ▽, type: trans}
   - Gui+Q
   - Gui+W
   - Gui+E
@@ -59,7 +59,7 @@ layers:
   - Gui+I
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+A
   - Gui+S
@@ -72,7 +72,7 @@ layers:
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
-  - {type: none}
+  - {t: ▽, type: trans}
   - Gui+Z
   - Gui+X
   - Gui+C
@@ -83,7 +83,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:apple-keyboard-option$$
+  - {t: ▽, type: trans}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -118,8 +118,8 @@ layers:
   - F5
   - F6
   - {type: none}
+  - {type: none}
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-option$$
   - {t: Clear, h: All, s: '$$mdi:bluetooth-off$$'}
   - {t: Clear, s: '$$mdi:bluetooth-off$$'}
   - {type: none}
@@ -153,7 +153,7 @@ layers:
   - I
   - O
   - P
-  - {type: none}
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-control$$
   - A
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
@@ -166,7 +166,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-control$$'}
   - {t: ;, h: ':', s: ':'}
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:apple-keyboard-command$$
   - Z
   - X
   - C
@@ -213,7 +213,7 @@ layers:
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
-  - {type: none}
+  - {t: ▽, type: trans}
   - Ctl+Z
   - Ctl+X
   - Ctl+C
@@ -224,7 +224,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:apple-keyboard-command$$
+  - {t: ▽, type: trans}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -259,8 +259,8 @@ layers:
   - F5
   - F6
   - {type: none}
+  - {type: none}
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-command$$
   - {t: Clear, h: All, s: '$$mdi:bluetooth-off$$'}
   - {t: Clear, s: '$$mdi:bluetooth-off$$'}
   - {type: none}
@@ -307,6 +307,7 @@ layers:
   - END
   - {type: none}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -317,8 +318,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: held}
   - {type: none}
   - {type: none}
@@ -354,7 +354,7 @@ layers:
   - '!='
   - {type: none}
   - {t: ▽, type: trans}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -365,7 +365,7 @@ layers:
   - +=
   - -=
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {t: '`', s: '~'}
   - {type: none}
   - {type: none}
@@ -401,7 +401,7 @@ layers:
   - '!='
   - {type: none}
   - {t: ▽, type: trans}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - '!'
   - '@'
@@ -412,7 +412,7 @@ layers:
   - +=
   - -=
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - '~'
   - {type: none}
   - {type: none}
