@@ -108,10 +108,10 @@ layers:
   - {type: none}
   - $$mdi:download-circle$$
   - {type: none}
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
   - {type: none}
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - {type: none}
   - F11
   - F4
@@ -249,10 +249,10 @@ layers:
   - {type: none}
   - $$mdi:download-circle$$
   - {type: none}
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
   - {type: none}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - {type: none}
   - F11
   - F4
