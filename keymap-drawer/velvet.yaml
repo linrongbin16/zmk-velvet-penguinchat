@@ -14,16 +14,16 @@ layers:
   - P
   - $$mdi:apple-keyboard-caps$$
   - {type: none}
-  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - A
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - F
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - H
-  - J
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-command$$', s: ':'}
+  - {t: L, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: ;, h: ':', s: ':'}
   - {type: none}
   - $$mdi:apple-keyboard-option$$
   - Z
@@ -155,16 +155,16 @@ layers:
   - P
   - $$mdi:apple-keyboard-caps$$
   - {type: none}
-  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - A
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - F
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - H
-  - J
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: ':', s: ':'}
   - {type: none}
   - $$mdi:apple-keyboard-command$$
   - Z
