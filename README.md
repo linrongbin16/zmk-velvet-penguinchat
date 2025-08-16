@@ -4,6 +4,10 @@
 >
 > **Please use the [Online ZMK Editor](https://nickcoutsos.github.io/keymap-editor) to build firmware with GitHub actions.**
 
+> [!IMPORTANT]
+>
+> **For macOS, please swap "Command" and "Option" in keyboard settings.**
+
 <img src="keymap-drawer/velvet.svg" >
 
 ## Acknowledgement
