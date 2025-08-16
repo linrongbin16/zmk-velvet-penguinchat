@@ -128,18 +128,18 @@
 
         Qwer-Mac {
             bindings = <
-&kp TAB           &kp Q             &kp W            &kp E               &kp R       &kp T         &kp Y          &kp U             &kp I                &kp O                 &kp P                           &none
+&kp TAB           &kp Q             &kp W            &kp E               &kp R       &kp T         &kp Y          &kp U             &kp I                &kp O                 &kp P                           &kp CAPSLOCK
 &kp LEFT_CONTROL  &kp A             &hml LEFT_GUI S  &hmls LEFT_SHIFT D  &kp F       &kp G         &kp H          &kp J             &hmrs RIGHT_SHIFT K  &hmr RIGHT_GUI L      &as COLON SEMI                  &kp RIGHT_CONTROL
-&kp CAPSLOCK      &kp Z             &kp X            &kp C               &kp V       &kp B         &kp N          &kp M             &as LESS_THAN COMMA  &as GREATER_THAN DOT  &as QUESTION SLASH              &kp RIGHT_ALT
+&kp LEFT_ALT      &kp Z             &kp X            &kp C               &kp V       &kp B         &kp N          &kp M             &as LESS_THAN COMMA  &as GREATER_THAN DOT  &as QUESTION SLASH              &kp RIGHT_ALT
                   &mor 6 BACKSLASH  &none            &none               &mol 2 ESC  &mor 1 SPACE  &mor 7 RETURN  &mor 8 BACKSPACE  &none                &none                 &as DOUBLE_QUOTES SINGLE_QUOTE
             >;
         };
 
         Edit-Mac {
             bindings = <
-&none   &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)  &kp LG(Y)  &kp LG(U)   &kp LG(I)  &none  &none  &none
+&trans  &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)  &kp LG(Y)  &kp LG(U)   &kp LG(I)  &none  &none  &trans
 &trans  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)  &kp LG(H)  &kp LG(J)   &kp LG(K)  &none  &none  &trans
-&none   &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)  &kp LG(N)  &kp LG(M)   &none      &none  &none  &kp RIGHT_ALT
+&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)  &kp LG(N)  &kp LG(M)   &none      &none  &none  &trans
         &none      &none      &none      &none      &none      &none      &kp DELETE  &none      &none  &none
             >;
 
@@ -148,18 +148,18 @@
 
         Fun-Mac {
             bindings = <
-&bootloader   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &kp F10  &kp F7      &kp F8  &kp F9  &none  &bootloader
-&trans        &none           &kp LEFT_GUI  &kp LEFT_SHIFT  &none         &none         &kp F11  &kp F4      &kp F5  &kp F6  &none  &trans
-&kp LEFT_ALT  &bt BT_CLR_ALL  &bt BT_CLR    &none           &out OUT_BLE  &out OUT_USB  &kp F12  &kp F1      &kp F2  &kp F3  &none  &to 3
-              &none           &none         &none           &none         &none         &none    &kp DELETE  &none   &none   &none
+&bootloader  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &kp F10  &kp F7      &kp F8  &kp F9  &none  &bootloader
+&trans       &none           &kp LEFT_GUI  &kp LEFT_SHIFT  &none         &none         &kp F11  &kp F4      &kp F5  &kp F6  &none  &none
+&trans       &bt BT_CLR_ALL  &bt BT_CLR    &none           &out OUT_BLE  &out OUT_USB  &kp F12  &kp F1      &kp F2  &kp F3  &none  &to 3
+             &none           &none         &none           &none         &none         &none    &kp DELETE  &none   &none   &none
             >;
         };
 
         Qwer-Win {
             bindings = <
-&kp TAB           &kp Q             &kp W                &kp E               &kp R       &kp T         &kp Y          &kp U             &kp I                &kp O                 &kp P                           &none
+&kp TAB           &kp Q             &kp W                &kp E               &kp R       &kp T         &kp Y          &kp U             &kp I                &kp O                 &kp P                           &kp CAPSLOCK
 &kp LEFT_CONTROL  &kp A             &hml LEFT_CONTROL S  &hmls LEFT_SHIFT D  &kp F       &kp G         &kp H          &kp J             &hmrs RIGHT_SHIFT K  &hmr RIGHT_CONTROL L  &as COLON SEMI                  &kp RIGHT_CONTROL
-&kp CAPSLOCK      &kp Z             &kp X                &kp C               &kp V       &kp B         &kp N          &kp M             &as LESS_THAN COMMA  &as GREATER_THAN DOT  &as QUESTION SLASH              &kp RIGHT_GUI
+&kp LEFT_GUI      &kp Z             &kp X                &kp C               &kp V       &kp B         &kp N          &kp M             &as LESS_THAN COMMA  &as GREATER_THAN DOT  &as QUESTION SLASH              &kp RIGHT_GUI
                   &mor 6 BACKSLASH  &none                &none               &mol 5 ESC  &mor 4 SPACE  &mor 7 RETURN  &mor 8 BACKSPACE  &none                &none                 &as DOUBLE_QUOTES SINGLE_QUOTE
             >;
         };
@@ -168,7 +168,7 @@
             bindings = <
 &none   &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)  &kp LC(Y)  &kp LC(U)   &kp LC(I)  &none  &none  &none
 &trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)  &kp LC(H)  &kp LC(J)   &kp LC(K)  &none  &none  &trans
-&none   &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &kp LC(N)  &kp LC(M)   &none      &none  &none  &kp RIGHT_GUI
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &kp LC(N)  &kp LC(M)   &none      &none  &none  &trans
         &none      &none      &none      &none      &none      &none      &kp DELETE  &none      &none  &none
             >;
 
@@ -177,10 +177,10 @@
 
         Fun-Win {
             bindings = <
-&bootloader   &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &kp F10  &kp F7      &kp F8  &kp F9  &none  &bootloader
-&trans        &none           &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none         &none         &kp F11  &kp F4      &kp F5  &kp F6  &none  &trans
-&kp LEFT_GUI  &bt BT_CLR_ALL  &bt BT_CLR        &none           &out OUT_BLE  &out OUT_USB  &kp F12  &kp F1      &kp F2  &kp F3  &none  &to 0
-              &none           &none             &none           &none         &none         &none    &kp DELETE  &none   &none   &none
+&bootloader  &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &kp F10  &kp F7      &kp F8  &kp F9  &none  &bootloader
+&trans       &none           &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none         &none         &kp F11  &kp F4      &kp F5  &kp F6  &none  &none
+&trans       &bt BT_CLR_ALL  &bt BT_CLR        &none           &out OUT_BLE  &out OUT_USB  &kp F12  &kp F1      &kp F2  &kp F3  &none  &to 0
+             &none           &none             &none           &none         &none         &none    &kp DELETE  &none   &none   &none
             >;
         };
 
@@ -188,7 +188,7 @@
             bindings = <
 &none   &none  &none           &kp UP_ARROW    &none            &none  &none  &none     &kp PAGE_UP    &none    &none  &none
 &trans  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none  &kp HOME  &kp PAGE_DOWN  &kp END  &none  &trans
-&none   &none  &none           &none           &none            &none  &none  &none     &none          &none    &none  &none
+&trans  &none  &none           &none           &none            &none  &none  &none     &none          &none    &none  &trans
         &none  &none           &none           &none            &none  &none  &none     &none          &none    &none
             >;
 
@@ -199,7 +199,7 @@
             bindings = <
 &none   &none      &kp N7  &kp N8  &kp N9            &kp N0             &none  &tap2_macro LESS_THAN MINUS  &tap2_macro MINUS GREATER_THAN  &tap2_macro EQUAL GREATER_THAN  &none  &none
 &trans  &none      &kp N4  &kp N5  &kp N6            &kp MINUS          &none  &tap2_macro LESS_THAN EQUAL  &tap2_macro GREATER_THAN EQUAL  &tap2_macro EXCL EQUAL          &none  &trans
-&none   &none      &kp N1  &kp N2  &kp N3            &kp EQUAL          &none  &none                        &tap2_macro PLUS EQUAL          &tap2_macro MINUS EQUAL         &none  &none
+&trans  &none      &kp N1  &kp N2  &kp N3            &kp EQUAL          &none  &none                        &tap2_macro PLUS EQUAL          &tap2_macro MINUS EQUAL         &none  &trans
         &kp GRAVE  &none   &none   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none  &none                        &none                           &none                           &none
             >;
         };
@@ -208,7 +208,7 @@
             bindings = <
 &none   &none      &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none  &tap2_macro LESS_THAN MINUS  &tap2_macro MINUS GREATER_THAN  &tap2_macro EQUAL GREATER_THAN  &none  &none
 &trans  &none      &kp DOLLAR       &kp PERCENT   &kp CARET             &kp UNDERSCORE         &none  &tap2_macro LESS_THAN EQUAL  &tap2_macro GREATER_THAN EQUAL  &tap2_macro EXCL EQUAL          &none  &trans
-&none   &none      &kp EXCLAMATION  &kp AT        &kp HASH              &kp PLUS               &none  &none                        &tap2_macro PLUS EQUAL          &tap2_macro MINUS EQUAL         &none  &none
+&trans  &none      &kp EXCLAMATION  &kp AT        &kp HASH              &kp PLUS               &none  &none                        &tap2_macro PLUS EQUAL          &tap2_macro MINUS EQUAL         &none  &trans
         &kp TILDE  &none            &none         &kp LEFT_BRACE        &kp RIGHT_BRACE        &none  &none                        &none                           &none                           &none
             >;
         };
