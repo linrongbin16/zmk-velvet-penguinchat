@@ -13,18 +13,18 @@ layers:
   - O
   - P
   - $$mdi:apple-keyboard-caps$$
-  - $$mdi:apple-keyboard-control$$
-  - A
-  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {type: none}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - F
   - G
   - H
   - J
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: ;, h: ':', s: ':'}
-  - $$mdi:apple-keyboard-control$$
+  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-command$$', s: ':'}
+  - {type: none}
   - $$mdi:apple-keyboard-option$$
   - Z
   - X
@@ -107,9 +107,9 @@ layers:
   - F9
   - {type: none}
   - $$mdi:download-circle$$
-  - {t: ▽, type: trans}
   - {type: none}
   - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - {type: none}
   - {type: none}
@@ -119,7 +119,7 @@ layers:
   - F6
   - {type: none}
   - {type: none}
-  - {t: ▽, type: trans}
+  - {type: none}
   - {t: Clear, h: All, s: '$$mdi:bluetooth-off$$'}
   - {t: Clear, s: '$$mdi:bluetooth-off$$'}
   - {type: none}
@@ -154,8 +154,8 @@ layers:
   - O
   - P
   - $$mdi:apple-keyboard-caps$$
-  - $$mdi:apple-keyboard-control$$
-  - A
+  - {type: none}
+  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - F
@@ -164,8 +164,8 @@ layers:
   - J
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ;, h: ':', s: ':'}
-  - $$mdi:apple-keyboard-control$$
+  - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
+  - {type: none}
   - $$mdi:apple-keyboard-command$$
   - Z
   - X
@@ -248,8 +248,8 @@ layers:
   - F9
   - {type: none}
   - $$mdi:download-circle$$
-  - {t: ▽, type: trans}
   - {type: none}
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - {type: none}
@@ -260,7 +260,7 @@ layers:
   - F6
   - {type: none}
   - {type: none}
-  - {t: ▽, type: trans}
+  - {type: none}
   - {t: Clear, h: All, s: '$$mdi:bluetooth-off$$'}
   - {t: Clear, s: '$$mdi:bluetooth-off$$'}
   - {type: none}
@@ -343,7 +343,7 @@ layers:
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '''', h: '"', s: '"'}
+  - {t: \, h: '|', s: '|'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
@@ -355,7 +355,7 @@ layers:
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: \, h: '|', s: '|'}
+  - {t: '''', h: '"', s: '"'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -390,7 +390,7 @@ layers:
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '"'
+  - '|'
   - $
   - '%'
   - ^
@@ -402,7 +402,7 @@ layers:
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '|'
+  - '"'
   - '!'
   - '@'
   - '#'
