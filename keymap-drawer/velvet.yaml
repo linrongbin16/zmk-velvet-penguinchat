@@ -103,7 +103,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - PgUp
+  - {type: none}
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
@@ -114,9 +114,9 @@ layers:
   - $$mdi:arrow-right$$
   - {type: none}
   - {type: none}
-  - HOME
-  - PgDn
-  - END
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
