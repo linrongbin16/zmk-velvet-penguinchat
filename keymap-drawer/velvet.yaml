@@ -37,11 +37,58 @@ layers:
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-command$$
-  - {t: \, h: '|', s: '|'}
+  - {t: \, h: Nav, s: '|'}
   - {type: none}
   - {type: none}
   - {t: ESC, h: Fun}
   - {t: '$$mdi:keyboard-space$$', h: Edit-Mac}
+  - {t: '$$mdi:keyboard-return$$', h: Num}
+  - {t: '$$mdi:backspace-outline$$', h: Sym}
+  - {type: none}
+  - {type: none}
+  - {t: '''', h: '"', s: '"'}
+  Qwer-Win:
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - $$mdi:apple-keyboard-caps$$
+  - {type: none}
+  - A
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - G
+  - H
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: ':', s: ':'}
+  - {type: none}
+  - $$mdi:apple-keyboard-command$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', h: <, s: <}
+  - {t: ., h: '>', s: '>'}
+  - {t: /, h: '?', s: '?'}
+  - $$mdi:apple-keyboard-command$$
+  - {t: \, h: Nav, s: '|'}
+  - {type: none}
+  - {type: none}
+  - {t: ESC, h: Fun}
+  - {t: '$$mdi:keyboard-space$$', h: Edit-Win}
   - {t: '$$mdi:keyboard-return$$', h: Num}
   - {t: '$$mdi:backspace-outline$$', h: Sym}
   - {type: none}
@@ -131,7 +178,7 @@ layers:
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
-  - {type: none}
+  - {type: held}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -235,53 +282,6 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  Qwer-Win:
-  - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - $$mdi:apple-keyboard-caps$$
-  - {type: none}
-  - A
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
-  - G
-  - H
-  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: ':', s: ':'}
-  - {type: none}
-  - $$mdi:apple-keyboard-command$$
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - {t: ',', h: <, s: <}
-  - {t: ., h: '>', s: '>'}
-  - {t: /, h: '?', s: '?'}
-  - $$mdi:apple-keyboard-command$$
-  - {t: \, h: Nav, s: '|'}
-  - {type: none}
-  - {type: none}
-  - {t: ESC, h: Fun}
-  - {t: '$$mdi:keyboard-space$$', h: Edit-Win}
-  - {t: '$$mdi:keyboard-return$$', h: Num}
-  - {t: '$$mdi:backspace-outline$$', h: Sym}
-  - {type: none}
-  - {type: none}
-  - {t: '''', h: '"', s: '"'}
   Edit-Mac:
   - {t: ▽, type: trans}
   - Gui+Q
