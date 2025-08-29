@@ -8,7 +8,7 @@
 >
 > **For macOS, please swap "Command" and "Option" in keyboard settings.**
 
-<img src="keymap-drawer/velvet.svg" >
+<img src="image/velvet.svg" >
 
 ## Acknowledgement
 
