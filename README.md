@@ -1,5 +1,3 @@
-# ZMK config for Penguinchat's velvet- v3 keyboard
-
 > [!IMPORTANT]
 >
 > **Please use the [Online ZMK Editor](https://nickcoutsos.github.io/keymap-editor) to build firmware with GitHub actions.**
