@@ -48,10 +48,10 @@ jobs:
       - name: Generate PNG
         run: |
           # Use 5x times density for bigger PNG, by default is 96
-          convert -density 480 ./keymap-drawer/velvet.svg ./keymap-drawer/velvet.png
+          convert -density 480 ./image/velvet.svg ./image/velvet.png
           echo "git status"
           git status
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore(png): auto-create png image"
-          file_pattern: "keymap-drawer/velvet.png"
+          file_pattern: "image/velvet.png"
