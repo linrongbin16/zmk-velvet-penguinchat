@@ -37,7 +37,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-command$$
-  - {t: \, h: Nav, s: '|'}
+  - {t: \, s: '|'}
   - {type: none}
   - {type: none}
   - {t: ESC, h: Fun}
@@ -46,7 +46,7 @@ layers:
   - {t: '$$mdi:backspace-outline$$', h: Sym}
   - {type: none}
   - {type: none}
-  - {t: '''', h: '"', s: '"'}
+  - {t: '''', h: Nav, s: '"'}
   Qwer-Win:
   - $$mdi:keyboard-tab$$
   - Q
@@ -84,7 +84,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-command$$
-  - {t: \, h: Nav, s: '|'}
+  - {t: \, s: '|'}
   - {type: none}
   - {type: none}
   - {t: ESC, h: Fun}
@@ -93,7 +93,7 @@ layers:
   - {t: '$$mdi:backspace-outline$$', h: Sym}
   - {type: none}
   - {type: none}
-  - {t: '''', h: '"', s: '"'}
+  - {t: '''', h: Nav, s: '"'}
   Fun:
   - $$mdi:download-circle$$
   - {t: '$$mdi:bluetooth$$', h: '1'}
@@ -178,16 +178,16 @@ layers:
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: held}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
   Num:
   - {t: ▽, type: trans}
   - {type: none}
