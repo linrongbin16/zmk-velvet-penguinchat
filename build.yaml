@@ -1,9 +1,10 @@
+# 使用带 nrf52840 qualifier 的 ZMK 板卡变体以满足 ZMK_BOARD_COMPAT 检查 (zmkfirmware/zmk#3265)
 include:
-  - board: nice_nano
+  - board: nice_nano/nrf52840
     shield: velvet_left
     snippet: studio-rpc-usb-uart nrf52840-nosd
-  - board: nice_nano
+  - board: nice_nano/nrf52840
     shield: velvet_right
     snippet: nrf52840-nosd
-  - board: nice_nano
+  - board: nice_nano/nrf52840
     shield: settings_reset
