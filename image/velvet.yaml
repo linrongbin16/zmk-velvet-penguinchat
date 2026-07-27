@@ -207,10 +207,10 @@ layers:
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - {t: '-', s: _}
-  - {type: none}
   - <=
   - '>='
-  - '!='
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -220,7 +220,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '=', s: +}
   - {type: none}
-  - {type: none}
+  - '!='
   - +=
   - -=
   - {type: none}
@@ -254,10 +254,10 @@ layers:
   - '%'
   - ^
   - _
-  - {type: none}
   - <=
   - '>='
-  - '!='
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -267,7 +267,7 @@ layers:
   - '#'
   - +
   - {type: none}
-  - {type: none}
+  - '!='
   - +=
   - -=
   - {type: none}
