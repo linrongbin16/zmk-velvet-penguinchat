@@ -13,6 +13,7 @@
     behaviors {
         as: autoshift {
             compatible = "zmk,behavior-hold-tap";
+            label = "AUTOSHIFT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -24,6 +25,7 @@
 
         hml: hrm_left {
             compatible = "zmk,behavior-hold-tap";
+            label = "HRM_LEFT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -37,6 +39,7 @@
 
         hmr: hrm_right {
             compatible = "zmk,behavior-hold-tap";
+            label = "HRM_RIGHT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -50,6 +53,7 @@
 
         mol: mo_left {
             compatible = "zmk,behavior-hold-tap";
+            label = "MO_LEFT";
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
@@ -63,6 +67,7 @@
 
         mor: mo_right {
             compatible = "zmk,behavior-hold-tap";
+            label = "MO_RIGHT";
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
@@ -78,6 +83,7 @@
     macros {
         tap2_macro: tap2_macro {
             compatible = "zmk,behavior-macro-two-param";
+            label = "TAP2_MACRO";
             #binding-cells = <2>;
             bindings =
                 <&macro_param_1to1>,
