@@ -4,7 +4,8 @@
 
 > [!IMPORTANT]
 >
-> **For macOS, please swap "Command" and "Option" in keyboard settings.**
+> **For macOS:** Please swap "Command" and "Option" in keyboard settings.
+> "Alt" (Windows) = "Option" (macOS), "GUI/Win" (Windows) = "Command" (macOS).
 
 <img src="image/velvet.svg" >
 
