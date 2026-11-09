@@ -117,6 +117,10 @@ parse_config:
   mark_alternate_layer_activators: true
   sticky_label: $$mdi:gesture-tap-hold$$
   toggle_label: "to"
+    # Modifier functions: LG(...) only appears in the Mac layers (drawn as LCMD)
+  modifier_fn_map:
+    left_gui: LCMD
+    right_gui: RCMD
   raw_binding_map:
     "&tap2_macro LESS_THAN MINUS":
       tap: "<-"
@@ -448,22 +452,28 @@ parse_config:
     LEFT_CONTROL: LCTRL
     RCTRL: RCTRL
     RIGHT_CONTROL: RCTRL
-    LALT: LALT
-    LEFT_ALT: LALT
-    RALT: RALT
-    RIGHT_ALT: RALT
     LSHFT: LSHFT
     LSHIFT: LSHFT
     LEFT_SHIFT: LSHFT
     RSHFT: RSHFT
     RSHIFT: RSHFT
     RIGHT_SHIFT: RSHFT
+    # Alt keys: the Mac layers spell them as LALT/RALT and are drawn as LOPT/ROPT,
+    # the Windows layers spell them as LEFT_ALT/RIGHT_ALT and are drawn as LALT/RALT.
+    LALT: LOPT
+    RALT: ROPT
+    LEFT_ALT: LALT
+    RIGHT_ALT: RALT
+    # GUI keys: the Mac layers spell them as LCMD/RCMD,
+    # the Windows layers spell them as LWIN/RWIN.
+    LCMD: LCMD
+    RCMD: RCMD
+    LWIN: LWIN
+    RWIN: RWIN
     LGUI: LGUI
-    LCMD: LGUI
     LEFT_GUI: LGUI
     LEFT_COMMAND: LGUI
     RGUI: RGUI
-    RCMD: RGUI
     RIGHT_GUI: RGUI
     RIGHT_COMMAND: RGUI
     # Capslock
