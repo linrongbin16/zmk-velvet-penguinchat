@@ -40,10 +40,10 @@ layers:
   - {t: \, h: Nav, s: '|'}
   - {type: none}
   - {type: none}
-  - {t: ESC, h: Fun}
+  - {t: ESC, h: Fun-Mac}
   - {t: '$$mdi:keyboard-space$$', h: Edit-Mac}
-  - {t: '$$mdi:keyboard-return$$', h: Num}
-  - {t: '$$mdi:backspace-outline$$', h: Sym}
+  - {t: '$$mdi:keyboard-return$$', h: Num-Mac}
+  - {t: '$$mdi:backspace-outline$$', h: Sym-Mac}
   - {type: none}
   - {type: none}
   - {t: '''', h: '"', s: '"'}
@@ -87,14 +87,61 @@ layers:
   - {t: \, h: Nav, s: '|'}
   - {type: none}
   - {type: none}
-  - {t: ESC, h: Fun}
+  - {t: ESC, h: Fun-Win}
   - {t: '$$mdi:keyboard-space$$', h: Edit-Win}
-  - {t: '$$mdi:keyboard-return$$', h: Num}
-  - {t: '$$mdi:backspace-outline$$', h: Sym}
+  - {t: '$$mdi:keyboard-return$$', h: Num-Win}
+  - {t: '$$mdi:backspace-outline$$', h: Sym-Win}
   - {type: none}
   - {type: none}
   - {t: '''', h: '"', s: '"'}
-  Fun:
+  Fun-Mac:
+  - $$mdi:download-circle$$
+  - {t: '$$mdi:bluetooth$$', h: '1'}
+  - {t: '$$mdi:bluetooth$$', h: '2'}
+  - {t: '$$mdi:bluetooth$$', h: '3'}
+  - {t: '$$mdi:bluetooth$$', h: '4'}
+  - {t: '$$mdi:bluetooth$$', h: '5'}
+  - F10
+  - F7
+  - F8
+  - F9
+  - {type: none}
+  - $$mdi:download-circle$$
+  - {t: ▽, type: trans}
+  - {type: none}
+  - LALT
+  - LSHFT
+  - {type: none}
+  - {type: none}
+  - F11
+  - F4
+  - F5
+  - F6
+  - {type: none}
+  - {type: none}
+  - {t: ▽, type: trans}
+  - {t: Clear, h: All, s: '$$mdi:bluetooth-off$$'}
+  - {t: Clear, s: '$$mdi:bluetooth-off$$'}
+  - {type: none}
+  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:bluetooth$$'}
+  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:usb$$'}
+  - F12
+  - F1
+  - F2
+  - F3
+  - {t: Qwer-Mac, h: to}
+  - {t: Qwer-Win, h: to}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: held}
+  - {type: none}
+  - {type: none}
+  - $$mdi:backspace-reverse$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  Fun-Win:
   - $$mdi:download-circle$$
   - {t: '$$mdi:bluetooth$$', h: '1'}
   - {t: '$$mdi:bluetooth$$', h: '2'}
@@ -188,7 +235,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  Num:
+  Num-Mac:
   - {t: ▽, type: trans}
   - {type: none}
   - {t: '7', s: '&'}
@@ -235,7 +282,101 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  Sym:
+  Num-Win:
+  - {t: ▽, type: trans}
+  - {type: none}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {type: none}
+  - <-
+  - ->
+  - =>
+  - {type: none}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: \, s: '|'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '-', s: _}
+  - <=
+  - '>='
+  - RSHFT
+  - RALT
+  - {type: none}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '''', s: '"'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '=', s: +}
+  - {type: none}
+  - '!='
+  - +=
+  - -=
+  - {type: none}
+  - {t: ▽, type: trans}
+  - {t: '`', s: '~'}
+  - {type: none}
+  - {type: none}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {type: held}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  Sym-Mac:
+  - {t: ▽, type: trans}
+  - {type: none}
+  - '&'
+  - '*'
+  - (
+  - )
+  - {type: none}
+  - <-
+  - ->
+  - =>
+  - {type: none}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '|'
+  - $
+  - '%'
+  - ^
+  - _
+  - <=
+  - '>='
+  - RSHFT
+  - RALT
+  - {type: none}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '"'
+  - '!'
+  - '@'
+  - '#'
+  - +
+  - {type: none}
+  - '!='
+  - +=
+  - -=
+  - {type: none}
+  - {t: ▽, type: trans}
+  - '~'
+  - {type: none}
+  - {type: none}
+  - '{'
+  - '}'
+  - {type: none}
+  - {type: held}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  Sym-Win:
   - {t: ▽, type: trans}
   - {type: none}
   - '&'
