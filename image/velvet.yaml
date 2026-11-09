@@ -15,17 +15,17 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - LCTRL
   - A
-  - {t: S, h: LALT}
+  - {t: S, h: LGUI}
   - {t: D, h: LSHFT}
   - F
   - G
   - H
   - J
   - {t: K, h: RSHFT}
-  - {t: L, h: RALT}
+  - {t: L, h: RGUI}
   - {t: ;, h: ':', s: ':'}
   - RCTRL
-  - LGUI
+  - LALT
   - Z
   - X
   - C
@@ -36,7 +36,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '?', s: '?'}
-  - RGUI
+  - RALT
   - {t: \, h: Nav, s: '|'}
   - {type: none}
   - {type: none}
@@ -284,36 +284,36 @@ layers:
   - {type: none}
   Edit-Mac:
   - {t: ▽, type: trans}
-  - Alt+Q
-  - Alt+W
-  - Alt+E
-  - Alt+R
-  - Alt+T
-  - Alt+Y
+  - Gui+Q
+  - Gui+W
+  - Gui+E
+  - Gui+R
+  - Gui+T
+  - Gui+Y
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+A
-  - Alt+S
-  - Alt+D
-  - Alt+F
-  - Alt+G
-  - Alt+H
+  - Gui+A
+  - Gui+S
+  - Gui+D
+  - Gui+F
+  - Gui+G
+  - Gui+H
   - {type: none}
   - RSHFT
-  - RALT
+  - RGUI
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+Z
-  - Alt+X
-  - Alt+C
-  - Alt+V
-  - Alt+B
-  - Alt+N
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - Gui+B
+  - Gui+N
   - {type: none}
   - {type: none}
   - {type: none}
