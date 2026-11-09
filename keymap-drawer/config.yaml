@@ -124,11 +124,12 @@ draw_config:
 parse_config:
   mark_alternate_layer_activators: true
   sticky_label: $$mdi:gesture-tap-hold$$
-  toggle_label: "to"
+  toggle_label:
+    "to"
     # Modifier functions: LG(...) only appears in the Mac layers (drawn as LCMD)
   modifier_fn_map:
-    left_gui: LCMD
-    right_gui: RCMD
+    left_gui: LCmd
+    right_gui: RCmd
   raw_binding_map:
     "&tap2_macro LESS_THAN MINUS":
       tap: "<-"
@@ -468,22 +469,22 @@ parse_config:
     RIGHT_SHIFT: $$mdi:apple-keyboard-shift$$
     # Alt keys: the Mac layers spell them as LALT/RALT and are drawn as LOPT/ROPT,
     # the Windows layers spell them as LEFT_ALT/RIGHT_ALT and are drawn as LALT/RALT.
-    LALT: LOPT
-    RALT: ROPT
-    LEFT_ALT: LALT
-    RIGHT_ALT: RALT
+    LALT: LOpt
+    RALT: ROpt
+    LEFT_ALT: LAlt
+    RIGHT_ALT: RAlt
     # GUI keys: the Mac layers spell them as LCMD/RCMD,
     # the Windows layers spell them as LWIN/RWIN.
     LCMD: $$mdi:apple-keyboard-command$$
     RCMD: $$mdi:apple-keyboard-command$$
     LWIN: $$mdi:microsoft-windows$$
     RWIN: $$mdi:microsoft-windows$$
-    LGUI: LGUI
-    LEFT_GUI: LGUI
-    LEFT_COMMAND: LGUI
-    RGUI: RGUI
-    RIGHT_GUI: RGUI
-    RIGHT_COMMAND: RGUI
+    LGUI: LGui
+    LEFT_GUI: LGui
+    LEFT_COMMAND: LGui
+    RGUI: RGui
+    RIGHT_GUI: RGui
+    RIGHT_COMMAND: RGui
     # Capslock
     CAPSLOCK: $$mdi:apple-keyboard-caps$$
     CAPS: $$mdi:apple-keyboard-caps$$
