@@ -15,17 +15,17 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - LCTRL
   - A
-  - {t: S, h: LGUI}
+  - {t: S, h: LCMD}
   - {t: D, h: LSHFT}
   - F
   - G
   - H
   - J
   - {t: K, h: RSHFT}
-  - {t: L, h: RGUI}
+  - {t: L, h: RCMD}
   - {t: ;, h: ':', s: ':'}
   - RCTRL
-  - LALT
+  - LOPT
   - Z
   - X
   - C
@@ -36,7 +36,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '?', s: '?'}
-  - RALT
+  - ROPT
   - {t: \, h: Nav, s: '|'}
   - {type: none}
   - {type: none}
@@ -72,7 +72,7 @@ layers:
   - {t: L, h: RALT}
   - {t: ;, h: ':', s: ':'}
   - RCTRL
-  - LGUI
+  - LWIN
   - Z
   - X
   - C
@@ -83,7 +83,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '?', s: '?'}
-  - RGUI
+  - RWIN
   - {t: \, h: Nav, s: '|'}
   - {type: none}
   - {type: none}
@@ -109,7 +109,7 @@ layers:
   - $$mdi:download-circle$$
   - {t: ▽, type: trans}
   - {type: none}
-  - LGUI
+  - LCMD
   - LSHFT
   - {type: none}
   - {type: none}
@@ -257,7 +257,7 @@ layers:
   - <=
   - '>='
   - RSHFT
-  - RGUI
+  - RCMD
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -351,7 +351,7 @@ layers:
   - <=
   - '>='
   - RSHFT
-  - RGUI
+  - RCMD
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -425,36 +425,36 @@ layers:
   - {type: none}
   Edit-Mac:
   - {t: ▽, type: trans}
-  - Gui+Q
-  - Gui+W
-  - Gui+E
-  - Gui+R
-  - Gui+T
-  - Gui+Y
+  - LCMD+Q
+  - LCMD+W
+  - LCMD+E
+  - LCMD+R
+  - LCMD+T
+  - LCMD+Y
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+A
-  - Gui+S
-  - Gui+D
-  - Gui+F
-  - Gui+G
-  - Gui+H
+  - LCMD+A
+  - LCMD+S
+  - LCMD+D
+  - LCMD+F
+  - LCMD+G
+  - LCMD+H
   - {type: none}
   - RSHFT
-  - RGUI
+  - RCMD
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Z
-  - Gui+X
-  - Gui+C
-  - Gui+V
-  - Gui+B
-  - Gui+N
+  - LCMD+Z
+  - LCMD+X
+  - LCMD+C
+  - LCMD+V
+  - LCMD+B
+  - LCMD+N
   - {type: none}
   - {type: none}
   - {type: none}
