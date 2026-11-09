@@ -25,7 +25,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ;, h: ':', s: ':'}
   - $$mdi:apple-keyboard-control$$
-  - LOPT
+  - LOpt
   - Z
   - X
   - C
@@ -36,7 +36,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '?', s: '?'}
-  - ROPT
+  - ROpt
   - {t: \, h: Nav, s: '|'}
   - {type: none}
   - {type: none}
@@ -62,14 +62,14 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-control$$
   - A
-  - {t: S, h: LALT}
+  - {t: S, h: LAlt}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - F
   - G
   - H
   - J
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: RALT}
+  - {t: L, h: RAlt}
   - {t: ;, h: ':', s: ':'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:microsoft-windows$$
@@ -156,7 +156,7 @@ layers:
   - $$mdi:download-circle$$
   - {t: ▽, type: trans}
   - {type: none}
-  - LALT
+  - LAlt
   - $$mdi:apple-keyboard-shift$$
   - {type: none}
   - {type: none}
@@ -304,7 +304,7 @@ layers:
   - <=
   - '>='
   - $$mdi:apple-keyboard-shift$$
-  - RALT
+  - RAlt
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -398,7 +398,7 @@ layers:
   - <=
   - '>='
   - $$mdi:apple-keyboard-shift$$
-  - RALT
+  - RAlt
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -425,36 +425,36 @@ layers:
   - {type: none}
   Edit-Mac:
   - {t: ▽, type: trans}
-  - LCMD+Q
-  - LCMD+W
-  - LCMD+E
-  - LCMD+R
-  - LCMD+T
-  - LCMD+Y
+  - LCmd+Q
+  - LCmd+W
+  - LCmd+E
+  - LCmd+R
+  - LCmd+T
+  - LCmd+Y
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LCMD+A
-  - LCMD+S
-  - LCMD+D
-  - LCMD+F
-  - LCMD+G
-  - LCMD+H
+  - LCmd+A
+  - LCmd+S
+  - LCmd+D
+  - LCmd+F
+  - LCmd+G
+  - LCmd+H
   - {type: none}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LCMD+Z
-  - LCMD+X
-  - LCMD+C
-  - LCMD+V
-  - LCMD+B
-  - LCMD+N
+  - LCmd+Z
+  - LCmd+X
+  - LCmd+C
+  - LCmd+V
+  - LCmd+B
+  - LCmd+N
   - {type: none}
   - {type: none}
   - {type: none}
@@ -492,7 +492,7 @@ layers:
   - Ctl+H
   - {type: none}
   - $$mdi:apple-keyboard-shift$$
-  - RALT
+  - RAlt
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
