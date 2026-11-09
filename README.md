@@ -2,11 +2,6 @@
 >
 > **Please use the [Online ZMK Editor](https://nickcoutsos.github.io/keymap-editor) to build firmware with GitHub actions.**
 
-> [!IMPORTANT]
->
-> **For macOS:** Please swap "Command" and "Option" in keyboard settings.
-> "Alt" (Windows) = "Option" (macOS), "GUI/Win" (Windows) = "Command" (macOS).
-
 <img src="image/velvet.svg" >
 
 ## Acknowledgement
